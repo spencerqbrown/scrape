@@ -1,19 +1,12 @@
 import openpyxl
 import pandas as pd
-from extractors import extractURLs_csv
-from extractors import extractURLs_excel
+from extractors import extractURLs
 from scrapeFromURLs import scrapeFromURLs
-def simpleScraper(sourceFile, searchTerms, key, firstIndex, lastIndex, wait=[2,3], combine=True, statusCol=None, overWrite=False):
+def simpleScraper(sourceFile, searchTerms, key, indices, wait=[2,3], combine=True, statusCol=None, overWrite=False):
     
     # get url dict
     ext = sourceFile.split(".")[-1] # file extension
-    urls = {}
-    if (ext == "xlsx"):
-        urls = extractURLs_excel(sourceFile, searchTerms, key, firstIndex, lastIndex)
-    elif (ext == "csv"):
-        urls = extractURLs_csv(sourceFile, searchTerms, key, firstIndex, lastIndex)
-    else:
-        raise ValueError
+    urls = extractURLs(sourceFile, searchTerms, key, indices)
     
     # scrape and save
     status = scrapeFromURLs(urls, combine, wait)
@@ -28,7 +21,7 @@ def simpleScraper(sourceFile, searchTerms, key, firstIndex, lastIndex, wait=[2,3
             raise ValueError
         # make status list and put into source file df
         status_final = ["Scraped" if s is 1 else "Failed" for s in status]
-        source.loc[firstIndex:lastIndex,[statusCol]] = status_final
+        source.loc[indices,[statusCol]] = status_final
         if overWrite:
             if (ext == "xlsx"):
                 source.to_excel(sourceFile, index=False)
