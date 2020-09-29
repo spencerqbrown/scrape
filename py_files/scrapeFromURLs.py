@@ -7,7 +7,15 @@ from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 from scroll import scrollDown,getReviewTotal
 from scrapeFromList import scrapeFromList
-def scrapeFromURLs(urls, checkAddress=True, combine=True, wait=[2,3]):
+def scrapeFromURLs(urls, checkAddress=True, combine=True, wait=[2,3], filePath=""):
+    print("combine:",combine)
+    print("wait:",wait)
+
+    # fix filePath if necessary
+    if (filePath[-2:] != "\\"):
+        filePath = filePath + "\\"
+    # note that the above will probably not fix a case with a single slash
+
     # check that urls are dicts
     if not (isinstance(urls, dict)):
         raise ValueError
@@ -72,7 +80,16 @@ def scrapeFromURLs(urls, checkAddress=True, combine=True, wait=[2,3]):
         
             
         
-        driver.find_element_by_class_name("hqzQac").click()
+        button = driver.find_elements_by_class_name("hqzQac")
+        if (len(button) > 0):
+            # button found
+            button[0].click()
+        else:
+            # no button found
+            dfs[i] = pd.DataFrame({})
+            i += 1
+            print("failed to scrape location with key",id,"due to missing button, continuing...")
+            continue
         WebDriverWait(driver, 45).until(ec.presence_of_element_located((By.XPATH, "//div[@class='gws-localreviews__general-reviews-block']//div[@class='WMbnJf gws-localreviews__google-review']")))
         
         # scroll to bottom
@@ -90,6 +107,14 @@ def scrapeFromURLs(urls, checkAddress=True, combine=True, wait=[2,3]):
         df["key"] = str(id)
         
         dfs[i] = df
+
+        # output the df if not combining
+        if (not combine):
+            print("saving location with key",id)
+            outstr = "scraped_"+str(datetime.datetime.now()).replace(' ','_').replace(':','_').replace('.','_')+".csv"
+            df.to_csv(filePath+outstr,index=False)
+            print("saved location with key", id, "as", outstr)
+        
         r_count += len(df)
         status[i] = 1
         i += 1
@@ -100,16 +125,11 @@ def scrapeFromURLs(urls, checkAddress=True, combine=True, wait=[2,3]):
         # append all other dfs to the first one, then save to csv
         for i in dfs[1:]:
             df = df.append(i, ignore_index=True)
-        r_count_final = len(df)
+        fName = "combined_scrape_"+str(datetime.datetime.now()).replace(' ','_').replace(':','_').replace('.','_')+".csv"
+        df.to_csv(filePath+fName,index=False)
         
-        df.to_csv("combined_scrape_"+str(datetime.datetime.now()).replace(' ','_').replace(':','_').replace('.','_')+".csv",index=False)
-    else:
-        for i in dfs:
-            i.to_csv("scraped_"+str(datetime.datetime.now()).replace(' ','_').replace(':','_').replace('.','_')+".csv",index=False)
-    
     # for testing if rows are lost
     print("sum of all rows:",r_count)
-    print("total rows:",r_count_final)
     
     driver.quit()
     
