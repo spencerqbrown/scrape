@@ -44,7 +44,7 @@ def pauseScroll(wait):
 
 def getReviewTotal(driver):
     raw = driver.find_element_by_xpath("//span[@class='hqzQac']").text
-    count = int(raw.split(" ")[0])
+    count = int(raw.split(" ")[0].replace(',',''))
     print("expecting", count, "reviews")
     return count
 
