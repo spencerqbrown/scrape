@@ -1,0 +1,775 @@
+saving location with key 1000812157
+saved location with key 1000812157 as scraped_2020-10-02_04_03_33_264584.csv
+expecting 300 reviews
+scrolling...
+finished scrolling, found 299 reviews
+preparing to scrape location with key 1000812182
+scraped location with key 1000812182 with 299 reviews
+saving location with key 1000812182
+saved location with key 1000812182 as scraped_2020-10-02_04_05_11_453175.csv
+expecting 132 reviews
+scrolling...
+finished scrolling, found 132 reviews
+preparing to scrape location with key 1000812208
+scraped location with key 1000812208 with 132 reviews
+saving location with key 1000812208
+saved location with key 1000812208 as scraped_2020-10-02_04_05_46_762934.csv
+expecting 159 reviews
+scrolling...
+finished scrolling, found 157 reviews
+preparing to scrape location with key 1000812222
+scraped location with key 1000812222 with 157 reviews
+saving location with key 1000812222
+saved location with key 1000812222 as scraped_2020-10-02_04_06_34_314061.csv
+expecting 136 reviews
+scrolling...
+finished scrolling, found 136 reviews
+preparing to scrape location with key 1000812232
+scraped location with key 1000812232 with 136 reviews
+saving location with key 1000812232
+saved location with key 1000812232 as scraped_2020-10-02_04_07_10_935726.csv
+expecting 196 reviews
+scrolling...
+finished scrolling, found 196 reviews
+preparing to scrape location with key 1000812236
+scraped location with key 1000812236 with 196 reviews
+saving location with key 1000812236
+saved location with key 1000812236 as scraped_2020-10-02_04_08_08_591954.csv
+expecting 305 reviews
+scrolling...
+finished scrolling, found 305 reviews
+preparing to scrape location with key 1000812238
+scraped location with key 1000812238 with 305 reviews
+saving location with key 1000812238
+saved location with key 1000812238 as scraped_2020-10-02_04_09_48_421525.csv
+expecting 138 reviews
+scrolling...
+finished scrolling, found 138 reviews
+preparing to scrape location with key 1000812240
+scraped location with key 1000812240 with 138 reviews
+saving location with key 1000812240
+saved location with key 1000812240 as scraped_2020-10-02_04_10_29_273238.csv
+expecting 261 reviews
+scrolling...
+finished scrolling, found 261 reviews
+preparing to scrape location with key 1000812248
+scraped location with key 1000812248 with 261 reviews
+saving location with key 1000812248
+saved location with key 1000812248 as scraped_2020-10-02_04_11_51_619828.csv
+failed to scrape location with key 1000812254 due to unmatched town, continuing...
+expected town: saint marys -found town: st marys
+expecting 280 reviews
+scrolling...
+finished scrolling, found 280 reviews
+preparing to scrape location with key 1000812255
+scraped location with key 1000812255 with 280 reviews
+saving location with key 1000812255
+saved location with key 1000812255 as scraped_2020-10-02_04_13_18_026015.csv
+expecting 363 reviews
+scrolling...
+finished scrolling, found 363 reviews
+preparing to scrape location with key 1000812260
+scraped location with key 1000812260 with 363 reviews
+saving location with key 1000812260
+saved location with key 1000812260 as scraped_2020-10-02_04_15_28_221030.csv
+expecting 203 reviews
+scrolling...
+finished scrolling, found 202 reviews
+preparing to scrape location with key 1000812363
+scraped location with key 1000812363 with 202 reviews
+saving location with key 1000812363
+saved location with key 1000812363 as scraped_2020-10-02_04_16_28_760520.csv
+expecting 244 reviews
+scrolling...
+finished scrolling, found 243 reviews
+preparing to scrape location with key 1000812393
+scraped location with key 1000812393 with 243 reviews
+saving location with key 1000812393
+saved location with key 1000812393 as scraped_2020-10-02_04_17_44_895898.csv
+expecting 172 reviews
+scrolling...
+finished scrolling, found 171 reviews
+preparing to scrape location with key 1000812400
+scraped location with key 1000812400 with 171 reviews
+saving location with key 1000812400
+saved location with key 1000812400 as scraped_2020-10-02_04_18_36_687724.csv
+failed to scrape location with key 1000812410 due to unlisted location, continuing...
+expecting 196 reviews
+scrolling...
+finished scrolling, found 196 reviews
+preparing to scrape location with key 1000812414
+scraped location with key 1000812414 with 196 reviews
+saving location with key 1000812414
+saved location with key 1000812414 as scraped_2020-10-02_04_19_33_604984.csv
+expecting 174 reviews
+scrolling...
+finished scrolling, found 174 reviews
+preparing to scrape location with key 1000812416
+scraped location with key 1000812416 with 174 reviews
+saving location with key 1000812416
+saved location with key 1000812416 as scraped_2020-10-02_04_20_19_288800.csv
+failed to scrape location with key 1000812423 due to unmatched address number, continuing...
+expecting 226 reviews
+scrolling...
+finished scrolling, found 226 reviews
+preparing to scrape location with key 1000812465
+scraped location with key 1000812465 with 226 reviews
+saving location with key 1000812465
+saved location with key 1000812465 as scraped_2020-10-02_04_21_27_816010.csv
+expecting 133 reviews
+scrolling...
+finished scrolling, found 133 reviews
+preparing to scrape location with key 1000812474
+scraped location with key 1000812474 with 133 reviews
+saving location with key 1000812474
+saved location with key 1000812474 as scraped_2020-10-02_04_22_06_377305.csv
+expecting 344 reviews
+scrolling...
+finished scrolling, found 344 reviews
+preparing to scrape location with key 1000812525
+scraped location with key 1000812525 with 344 reviews
+saving location with key 1000812525
+saved location with key 1000812525 as scraped_2020-10-02_04_23_59_187550.csv
+expecting 221 reviews
+scrolling...
+finished scrolling, found 221 reviews
+preparing to scrape location with key 1000812552
+scraped location with key 1000812552 with 221 reviews
+saving location with key 1000812552
+saved location with key 1000812552 as scraped_2020-10-02_04_25_05_630715.csv
+expecting 122 reviews
+scrolling...
+finished scrolling, found 121 reviews
+preparing to scrape location with key 1000812559
+scraped location with key 1000812559 with 121 reviews
+saving location with key 1000812559
+saved location with key 1000812559 as scraped_2020-10-02_04_25_41_262503.csv
+expecting 454 reviews
+scrolling...
+finished scrolling, found 454 reviews
+preparing to scrape location with key 1000812537
+scraped location with key 1000812537 with 454 reviews
+saving location with key 1000812537
+saved location with key 1000812537 as scraped_2020-10-02_04_28_25_337444.csv
+expecting 190 reviews
+scrolling...
+finished scrolling, found 190 reviews
+preparing to scrape location with key 1000812538
+scraped location with key 1000812538 with 190 reviews
+saving location with key 1000812538
+saved location with key 1000812538 as scraped_2020-10-02_04_29_18_840566.csv
+failed to scrape location with key 1000812549 due to unmatched address number, continuing...
+expecting 151 reviews
+scrolling...
+finished scrolling, found 151 reviews
+preparing to scrape location with key 1000812567
+scraped location with key 1000812567 with 151 reviews
+saving location with key 1000812567
+saved location with key 1000812567 as scraped_2020-10-02_04_30_05_914612.csv
+expecting 77 reviews
+scrolling...
+finished scrolling, found 77 reviews
+preparing to scrape location with key 1000812603
+scraped location with key 1000812603 with 77 reviews
+saving location with key 1000812603
+saved location with key 1000812603 as scraped_2020-10-02_04_30_26_603686.csv
+expecting 249 reviews
+scrolling...
+finished scrolling, found 249 reviews
+preparing to scrape location with key 1000812621
+scraped location with key 1000812621 with 249 reviews
+saving location with key 1000812621
+saved location with key 1000812621 as scraped_2020-10-02_04_31_41_926819.csv
+expecting 272 reviews
+scrolling...
+finished scrolling, found 272 reviews
+preparing to scrape location with key 1000812639
+failed to scrape location with key 1000812639 , continuing...
+expecting 278 reviews
+scrolling...
+finished scrolling, found 278 reviews
+preparing to scrape location with key 1000812675
+scraped location with key 1000812675 with 278 reviews
+saving location with key 1000812675
+saved location with key 1000812675 as scraped_2020-10-02_04_33_59_552216.csv
+expecting 300 reviews
+scrolling...
+finished scrolling, found 297 reviews
+preparing to scrape location with key 1000812703
+scraped location with key 1000812703 with 297 reviews
+saving location with key 1000812703
+saved location with key 1000812703 as scraped_2020-10-02_04_35_35_439051.csv
+expecting 336 reviews
+scrolling...
+finished scrolling, found 336 reviews
+preparing to scrape location with key 1000812707
+scraped location with key 1000812707 with 336 reviews
+saving location with key 1000812707
+saved location with key 1000812707 as scraped_2020-10-02_04_37_20_329698.csv
+expecting 318 reviews
+scrolling...
+finished scrolling, found 318 reviews
+preparing to scrape location with key 1000812712
+scraped location with key 1000812712 with 318 reviews
+saving location with key 1000812712
+saved location with key 1000812712 as scraped_2020-10-02_04_39_06_422809.csv
+expecting 146 reviews
+scrolling...
+finished scrolling, found 146 reviews
+preparing to scrape location with key 1000812748
+scraped location with key 1000812748 with 146 reviews
+saving location with key 1000812748
+saved location with key 1000812748 as scraped_2020-10-02_04_39_47_767223.csv
+expecting 210 reviews
+scrolling...
+finished scrolling, found 210 reviews
+preparing to scrape location with key 1000812572
+scraped location with key 1000812572 with 210 reviews
+saving location with key 1000812572
+saved location with key 1000812572 as scraped_2020-10-02_04_40_53_786400.csv
+expecting 426 reviews
+scrolling...
+finished scrolling, found 424 reviews
+preparing to scrape location with key 1000812585
+scraped location with key 1000812585 with 424 reviews
+saving location with key 1000812585
+saved location with key 1000812585 as scraped_2020-10-02_04_43_29_596512.csv
+expecting 126 reviews
+scrolling...
+finished scrolling, found 125 reviews
+preparing to scrape location with key 1000812587
+scraped location with key 1000812587 with 125 reviews
+saving location with key 1000812587
+saved location with key 1000812587 as scraped_2020-10-02_04_44_08_091144.csv
+expecting 144 reviews
+scrolling...
+finished scrolling, found 144 reviews
+preparing to scrape location with key 1000812598
+scraped location with key 1000812598 with 144 reviews
+saving location with key 1000812598
+saved location with key 1000812598 as scraped_2020-10-02_04_44_50_554448.csv
+expecting 353 reviews
+scrolling...
+finished scrolling, found 353 reviews
+preparing to scrape location with key 1000812606
+scraped location with key 1000812606 with 353 reviews
+saving location with key 1000812606
+saved location with key 1000812606 as scraped_2020-10-02_04_46_49_853757.csv
+expecting 198 reviews
+scrolling...
+finished scrolling, found 198 reviews
+preparing to scrape location with key 1000812626
+scraped location with key 1000812626 with 198 reviews
+saving location with key 1000812626
+saved location with key 1000812626 as scraped_2020-10-02_04_47_46_913625.csv
+expecting 87 reviews
+scrolling...
+finished scrolling, found 87 reviews
+preparing to scrape location with key 1000812629
+scraped location with key 1000812629 with 87 reviews
+saving location with key 1000812629
+saved location with key 1000812629 as scraped_2020-10-02_04_48_10_711671.csv
+failed to scrape location with key 1000812637 due to unmatched address number, continuing...
+expecting 137 reviews
+scrolling...
+finished scrolling, found 136 reviews
+preparing to scrape location with key 1000812643
+scraped location with key 1000812643 with 136 reviews
+saving location with key 1000812643
+saved location with key 1000812643 as scraped_2020-10-02_04_48_52_798110.csv
+expecting 203 reviews
+scrolling...
+finished scrolling, found 203 reviews
+preparing to scrape location with key 1000812674
+scraped location with key 1000812674 with 203 reviews
+saving location with key 1000812674
+saved location with key 1000812674 as scraped_2020-10-02_04_49_50_251935.csv
+expecting 189 reviews
+scrolling...
+finished scrolling, found 189 reviews
+preparing to scrape location with key 1000812686
+scraped location with key 1000812686 with 189 reviews
+saving location with key 1000812686
+saved location with key 1000812686 as scraped_2020-10-02_04_50_45_304341.csv
+expecting 127 reviews
+scrolling...
+finished scrolling, found 127 reviews
+preparing to scrape location with key 1000812721
+scraped location with key 1000812721 with 127 reviews
+saving location with key 1000812721
+saved location with key 1000812721 as scraped_2020-10-02_04_51_21_763338.csv
+failed to scrape location with key 1000812275 due to missing button, continuing...
+expecting 69 reviews
+scrolling...
+finished scrolling, found 69 reviews
+preparing to scrape location with key 1000812283
+scraped location with key 1000812283 with 69 reviews
+saving location with key 1000812283
+saved location with key 1000812283 as scraped_2020-10-02_04_51_43_947681.csv
+expecting 188 reviews
+scrolling...
+finished scrolling, found 186 reviews
+preparing to scrape location with key 1000812288
+scraped location with key 1000812288 with 186 reviews
+saving location with key 1000812288
+saved location with key 1000812288 as scraped_2020-10-02_04_52_41_587465.csv
+expecting 223 reviews
+scrolling...
+finished scrolling, found 222 reviews
+preparing to scrape location with key 1000812293
+scraped location with key 1000812293 with 222 reviews
+saving location with key 1000812293
+saved location with key 1000812293 as scraped_2020-10-02_04_53_47_924163.csv
+expecting 230 reviews
+scrolling...
+finished scrolling, found 230 reviews
+preparing to scrape location with key 1000812335
+scraped location with key 1000812335 with 230 reviews
+saving location with key 1000812335
+saved location with key 1000812335 as scraped_2020-10-02_04_54_55_658722.csv
+failed to scrape location with key 1000812376 due to unmatched address number, continuing...
+expecting 250 reviews
+scrolling...
+finished scrolling, found 249 reviews
+preparing to scrape location with key 1000812381
+scraped location with key 1000812381 with 249 reviews
+saving location with key 1000812381
+saved location with key 1000812381 as scraped_2020-10-02_04_56_19_024238.csv
+expecting 136 reviews
+scrolling...
+finished scrolling, found 136 reviews
+preparing to scrape location with key 1000812385
+scraped location with key 1000812385 with 136 reviews
+saving location with key 1000812385
+saved location with key 1000812385 as scraped_2020-10-02_04_57_01_045730.csv
+expecting 316 reviews
+scrolling...
+finished scrolling, found 316 reviews
+preparing to scrape location with key 1000812389
+scraped location with key 1000812389 with 316 reviews
+saving location with key 1000812389
+saved location with key 1000812389 as scraped_2020-10-02_04_58_51_744102.csv
+expecting 175 reviews
+scrolling...
+finished scrolling, found 175 reviews
+preparing to scrape location with key 1000812394
+scraped location with key 1000812394 with 175 reviews
+saving location with key 1000812394
+saved location with key 1000812394 as scraped_2020-10-02_04_59_49_257484.csv
+expecting 249 reviews
+scrolling...
+finished scrolling, found 249 reviews
+preparing to scrape location with key 1000812402
+scraped location with key 1000812402 with 249 reviews
+saving location with key 1000812402
+saved location with key 1000812402 as scraped_2020-10-02_05_01_02_614125.csv
+expecting 357 reviews
+scrolling...
+finished scrolling, found 357 reviews
+preparing to scrape location with key 1000812756
+scraped location with key 1000812756 with 357 reviews
+saving location with key 1000812756
+saved location with key 1000812756 as scraped_2020-10-02_05_03_04_593748.csv
+failed to scrape location with key 1000812766 due to unmatched address number, continuing...
+expecting 62 reviews
+scrolling...
+finished scrolling, found 61 reviews
+preparing to scrape location with key 1000812777
+scraped location with key 1000812777 with 61 reviews
+saving location with key 1000812777
+saved location with key 1000812777 as scraped_2020-10-02_05_03_26_369440.csv
+expecting 235 reviews
+scrolling...
+finished scrolling, found 235 reviews
+preparing to scrape location with key 1000812814
+scraped location with key 1000812814 with 235 reviews
+saving location with key 1000812814
+saved location with key 1000812814 as scraped_2020-10-02_05_04_33_571822.csv
+expecting 204 reviews
+scrolling...
+finished scrolling, found 203 reviews
+preparing to scrape location with key 1000812851
+scraped location with key 1000812851 with 203 reviews
+saving location with key 1000812851
+saved location with key 1000812851 as scraped_2020-10-02_05_05_34_457578.csv
+failed to scrape location with key 1000812853 due to unlisted location, continuing...
+expecting 165 reviews
+scrolling...
+finished scrolling, found 165 reviews
+preparing to scrape location with key 1000812896
+scraped location with key 1000812896 with 165 reviews
+saving location with key 1000812896
+saved location with key 1000812896 as scraped_2020-10-02_05_06_22_287551.csv
+expecting 237 reviews
+scrolling...
+finished scrolling, found 236 reviews
+preparing to scrape location with key 1000812900
+scraped location with key 1000812900 with 236 reviews
+saving location with key 1000812900
+saved location with key 1000812900 as scraped_2020-10-02_05_07_35_139729.csv
+expecting 85 reviews
+scrolling...
+finished scrolling, found 85 reviews
+preparing to scrape location with key 1000812918
+scraped location with key 1000812918 with 85 reviews
+saving location with key 1000812918
+saved location with key 1000812918 as scraped_2020-10-02_05_07_59_511213.csv
+expecting 100 reviews
+scrolling...
+finished scrolling, found 100 reviews
+preparing to scrape location with key 1000812924
+scraped location with key 1000812924 with 100 reviews
+saving location with key 1000812924
+saved location with key 1000812924 as scraped_2020-10-02_05_08_27_403697.csv
+expecting 192 reviews
+scrolling...
+finished scrolling, found 192 reviews
+preparing to scrape location with key 1000812945
+scraped location with key 1000812945 with 192 reviews
+saving location with key 1000812945
+saved location with key 1000812945 as scraped_2020-10-02_05_09_21_670347.csv
+expecting 95 reviews
+scrolling...
+finished scrolling, found 95 reviews
+preparing to scrape location with key 1000812958
+scraped location with key 1000812958 with 95 reviews
+saving location with key 1000812958
+saved location with key 1000812958 as scraped_2020-10-02_05_09_50_383138.csv
+expecting 128 reviews
+scrolling...
+finished scrolling, found 128 reviews
+preparing to scrape location with key 1000812428
+scraped location with key 1000812428 with 128 reviews
+saving location with key 1000812428
+saved location with key 1000812428 as scraped_2020-10-02_05_10_27_769574.csv
+expecting 163 reviews
+scrolling...
+finished scrolling, found 163 reviews
+preparing to scrape location with key 1000812429
+scraped location with key 1000812429 with 163 reviews
+saving location with key 1000812429
+saved location with key 1000812429 as scraped_2020-10-02_05_11_14_685304.csv
+expecting 202 reviews
+scrolling...
+finished scrolling, found 201 reviews
+preparing to scrape location with key 1000812435
+scraped location with key 1000812435 with 201 reviews
+saving location with key 1000812435
+saved location with key 1000812435 as scraped_2020-10-02_05_12_13_917847.csv
+expecting 177 reviews
+scrolling...
+finished scrolling, found 177 reviews
+preparing to scrape location with key 1000812437
+scraped location with key 1000812437 with 177 reviews
+saving location with key 1000812437
+saved location with key 1000812437 as scraped_2020-10-02_05_13_09_299335.csv
+expecting 118 reviews
+scrolling...
+finished scrolling, found 117 reviews
+preparing to scrape location with key 1000812441
+scraped location with key 1000812441 with 117 reviews
+saving location with key 1000812441
+saved location with key 1000812441 as scraped_2020-10-02_05_13_47_872960.csv
+expecting 141 reviews
+scrolling...
+finished scrolling, found 141 reviews
+preparing to scrape location with key 1000812449
+scraped location with key 1000812449 with 141 reviews
+saving location with key 1000812449
+saved location with key 1000812449 as scraped_2020-10-02_05_14_25_116190.csv
+expecting 392 reviews
+scrolling...
+finished scrolling, found 390 reviews
+preparing to scrape location with key 1000812535
+scraped location with key 1000812535 with 390 reviews
+saving location with key 1000812535
+saved location with key 1000812535 as scraped_2020-10-02_05_16_41_555902.csv
+expecting 168 reviews
+scrolling...
+finished scrolling, found 168 reviews
+preparing to scrape location with key 1000812551
+scraped location with key 1000812551 with 168 reviews
+saving location with key 1000812551
+saved location with key 1000812551 as scraped_2020-10-02_05_17_30_893224.csv
+expecting 140 reviews
+scrolling...
+finished scrolling, found 140 reviews
+preparing to scrape location with key 1000812575
+scraped location with key 1000812575 with 140 reviews
+saving location with key 1000812575
+saved location with key 1000812575 as scraped_2020-10-02_05_18_08_940558.csv
+expecting 348 reviews
+scrolling...
+finished scrolling, found 347 reviews
+preparing to scrape location with key 1000812594
+scraped location with key 1000812594 with 347 reviews
+saving location with key 1000812594
+saved location with key 1000812594 as scraped_2020-10-02_05_19_58_099982.csv
+expecting 151 reviews
+scrolling...
+finished scrolling, found 151 reviews
+preparing to scrape location with key 1000812601
+scraped location with key 1000812601 with 151 reviews
+saving location with key 1000812601
+saved location with key 1000812601 as scraped_2020-10-02_05_20_42_930842.csv
+failed to scrape location with key 1000812965 due to unmatched town, continuing...
+expected town: bronx -found town: the bronx
+expecting 72 reviews
+scrolling...
+finished scrolling, found 72 reviews
+preparing to scrape location with key 1000813001
+scraped location with key 1000813001 with 72 reviews
+saving location with key 1000813001
+saved location with key 1000813001 as scraped_2020-10-02_05_21_06_767216.csv
+failed to scrape location with key 1000813014 due to unmatched address number, continuing...
+expecting 98 reviews
+scrolling...
+finished scrolling, found 97 reviews
+preparing to scrape location with key 1000813025
+scraped location with key 1000813025 with 97 reviews
+saving location with key 1000813025
+saved location with key 1000813025 as scraped_2020-10-02_05_21_36_881970.csv
+failed to scrape location with key 1000813028 due to unlisted location, continuing...
+expecting 282 reviews
+scrolling...
+finished scrolling, found 282 reviews
+preparing to scrape location with key 1000813031
+scraped location with key 1000813031 with 282 reviews
+saving location with key 1000813031
+saved location with key 1000813031 as scraped_2020-10-02_05_23_05_153849.csv
+expecting 312 reviews
+scrolling...
+finished scrolling, found 311 reviews
+preparing to scrape location with key 1000813035
+scraped location with key 1000813035 with 311 reviews
+saving location with key 1000813035
+saved location with key 1000813035 as scraped_2020-10-02_05_24_50_800687.csv
+expecting 61 reviews
+scrolling...
+finished scrolling, found 61 reviews
+preparing to scrape location with key 1000813046
+scraped location with key 1000813046 with 61 reviews
+saving location with key 1000813046
+saved location with key 1000813046 as scraped_2020-10-02_05_25_09_629498.csv
+expecting 165 reviews
+scrolling...
+finished scrolling, found 165 reviews
+preparing to scrape location with key 1000813118
+scraped location with key 1000813118 with 165 reviews
+saving location with key 1000813118
+saved location with key 1000813118 as scraped_2020-10-02_05_25_57_952255.csv
+expecting 189 reviews
+scrolling...
+finished scrolling, found 188 reviews
+preparing to scrape location with key 1000813119
+scraped location with key 1000813119 with 188 reviews
+saving location with key 1000813119
+saved location with key 1000813119 as scraped_2020-10-02_05_26_56_494042.csv
+expecting 87 reviews
+scrolling...
+finished scrolling, found 87 reviews
+preparing to scrape location with key 1000813135
+scraped location with key 1000813135 with 87 reviews
+saving location with key 1000813135
+saved location with key 1000813135 as scraped_2020-10-02_05_27_23_284170.csv
+failed to scrape location with key 1000812744 due to unmatched address number, continuing...
+expecting 250 reviews
+scrolling...
+finished scrolling, found 250 reviews
+preparing to scrape location with key 1000812752
+scraped location with key 1000812752 with 250 reviews
+saving location with key 1000812752
+saved location with key 1000812752 as scraped_2020-10-02_05_28_44_659208.csv
+expecting 352 reviews
+scrolling...
+finished scrolling, found 351 reviews
+preparing to scrape location with key 1000812761
+scraped location with key 1000812761 with 351 reviews
+saving location with key 1000812761
+saved location with key 1000812761 as scraped_2020-10-02_05_30_47_225096.csv
+expecting 423 reviews
+scrolling...
+finished scrolling, found 421 reviews
+preparing to scrape location with key 1000812771
+scraped location with key 1000812771 with 421 reviews
+saving location with key 1000812771
+saved location with key 1000812771 as scraped_2020-10-02_05_33_14_246876.csv
+expecting 324 reviews
+scrolling...
+finished scrolling, found 322 reviews
+preparing to scrape location with key 1000812772
+scraped location with key 1000812772 with 322 reviews
+saving location with key 1000812772
+saved location with key 1000812772 as scraped_2020-10-02_05_35_03_095226.csv
+expecting 183 reviews
+scrolling...
+finished scrolling, found 183 reviews
+preparing to scrape location with key 1000812781
+scraped location with key 1000812781 with 183 reviews
+saving location with key 1000812781
+saved location with key 1000812781 as scraped_2020-10-02_05_35_57_544581.csv
+expecting 141 reviews
+scrolling...
+finished scrolling, found 140 reviews
+preparing to scrape location with key 1000812795
+scraped location with key 1000812795 with 140 reviews
+saving location with key 1000812795
+saved location with key 1000812795 as scraped_2020-10-02_05_36_39_910854.csv
+failed to scrape location with key 1000812799 due to unmatched address number, continuing...
+expecting 213 reviews
+scrolling...
+finished scrolling, found 213 reviews
+preparing to scrape location with key 1000812807
+scraped location with key 1000812807 with 213 reviews
+saving location with key 1000812807
+saved location with key 1000812807 as scraped_2020-10-02_05_37_44_793699.csv
+failed to scrape location with key 1000812821 due to unmatched address number, continuing...
+expecting 181 reviews
+scrolling...
+finished scrolling, found 180 reviews
+preparing to scrape location with key 1000812847
+scraped location with key 1000812847 with 180 reviews
+saving location with key 1000812847
+saved location with key 1000812847 as scraped_2020-10-02_05_38_37_798435.csv
+expecting 168 reviews
+scrolling...
+finished scrolling, found 168 reviews
+preparing to scrape location with key 1000812148
+scraped location with key 1000812148 with 168 reviews
+saving location with key 1000812148
+saved location with key 1000812148 as scraped_2020-10-02_05_39_25_079463.csv
+expecting 114 reviews
+scrolling...
+finished scrolling, found 114 reviews
+preparing to scrape location with key 1000812169
+scraped location with key 1000812169 with 114 reviews
+saving location with key 1000812169
+saved location with key 1000812169 as scraped_2020-10-02_05_39_57_268908.csv
+expecting 247 reviews
+scrolling...
+finished scrolling, found 246 reviews
+preparing to scrape location with key 1000812179
+scraped location with key 1000812179 with 246 reviews
+saving location with key 1000812179
+saved location with key 1000812179 as scraped_2020-10-02_05_41_15_905037.csv
+expecting 141 reviews
+scrolling...
+finished scrolling, found 140 reviews
+preparing to scrape location with key 1000812206
+scraped location with key 1000812206 with 140 reviews
+saving location with key 1000812206
+saved location with key 1000812206 as scraped_2020-10-02_05_41_58_790318.csv
+expecting 190 reviews
+scrolling...
+finished scrolling, found 190 reviews
+preparing to scrape location with key 1000812246
+scraped location with key 1000812246 with 190 reviews
+saving location with key 1000812246
+saved location with key 1000812246 as scraped_2020-10-02_05_42_53_663210.csv
+failed to scrape location with key 1000812273 due to unmatched address number, continuing...
+expecting 222 reviews
+scrolling...
+finished scrolling, found 222 reviews
+preparing to scrape location with key 1000812340
+scraped location with key 1000812340 with 222 reviews
+saving location with key 1000812340
+saved location with key 1000812340 as scraped_2020-10-02_05_44_06_609535.csv
+expecting 200 reviews
+scrolling...
+finished scrolling, found 200 reviews
+preparing to scrape location with key 1000812350
+scraped location with key 1000812350 with 200 reviews
+saving location with key 1000812350
+saved location with key 1000812350 as scraped_2020-10-02_05_45_02_929636.csv
+expecting 119 reviews
+scrolling...
+finished scrolling, found 119 reviews
+preparing to scrape location with key 1000812388
+scraped location with key 1000812388 with 119 reviews
+saving location with key 1000812388
+saved location with key 1000812388 as scraped_2020-10-02_05_45_36_022924.csv
+expecting 154 reviews
+scrolling...
+finished scrolling, found 154 reviews
+preparing to scrape location with key 1000812405
+scraped location with key 1000812405 with 154 reviews
+saving location with key 1000812405
+saved location with key 1000812405 as scraped_2020-10-02_05_46_17_076135.csv
+failed to scrape location with key 1000812427 due to unlisted location, continuing...
+expecting 234 reviews
+scrolling...
+finished scrolling, found 234 reviews
+preparing to scrape location with key 1000812431
+scraped location with key 1000812431 with 234 reviews
+saving location with key 1000812431
+saved location with key 1000812431 as scraped_2020-10-02_05_47_32_463859.csv
+expecting 295 reviews
+scrolling...
+finished scrolling, found 293 reviews
+preparing to scrape location with key 1000812858
+scraped location with key 1000812858 with 293 reviews
+saving location with key 1000812858
+saved location with key 1000812858 as scraped_2020-10-02_05_49_07_185994.csv
+expecting 263 reviews
+scrolling...
+finished scrolling, found 262 reviews
+preparing to scrape location with key 1000812867
+scraped location with key 1000812867 with 262 reviews
+saving location with key 1000812867
+saved location with key 1000812867 as scraped_2020-10-02_05_50_32_308615.csv
+failed to scrape location with key 1000812879 due to unmatched town, continuing...
+expected town: palm springs -found town: lake worth
+expecting 189 reviews
+scrolling...
+finished scrolling, found 188 reviews
+preparing to scrape location with key 1000812928
+scraped location with key 1000812928 with 188 reviews
+saving location with key 1000812928
+saved location with key 1000812928 as scraped_2020-10-02_05_51_30_714077.csv
+expecting 135 reviews
+scrolling...
+finished scrolling, found 135 reviews
+preparing to scrape location with key 1000812930
+scraped location with key 1000812930 with 135 reviews
+saving location with key 1000812930
+saved location with key 1000812930 as scraped_2020-10-02_05_52_05_259302.csv
+expecting 222 reviews
+scrolling...
+finished scrolling, found 222 reviews
+preparing to scrape location with key 1000812956
+scraped location with key 1000812956 with 222 reviews
+saving location with key 1000812956
+saved location with key 1000812956 as scraped_2020-10-02_05_53_13_217686.csv
+expecting 161 reviews
+scrolling...
+finished scrolling, found 161 reviews
+preparing to scrape location with key 1000812980
+scraped location with key 1000812980 with 161 reviews
+saving location with key 1000812980
+saved location with key 1000812980 as scraped_2020-10-02_05_54_01_353563.csv
+expecting 51 reviews
+scrolling...
+finished scrolling, found 51 reviews
+preparing to scrape location with key 1000813000
+scraped location with key 1000813000 with 51 reviews
+saving location with key 1000813000
+saved location with key 1000813000 as scraped_2020-10-02_05_54_17_426546.csv
+expecting 151 reviews
+scrolling...
+finished scrolling, found 150 reviews
+preparing to scrape location with key 1000813008
+scraped location with key 1000813008 with 150 reviews
+saving location with key 1000813008
+saved location with key 1000813008 as scraped_2020-10-02_05_55_05_248440.csv
+expecting 198 reviews
+scrolling...
+finished scrolling, found 197 reviews
+preparing to scrape location with key 1000813084
+scraped location with key 1000813084 with 197 reviews
+saving location with key 1000813084
+finished scrolling, found 197 reviews
+preparing to scrape location with key 1000813096
+scraped location with key 1000813096 with 197 reviews
+saving location with key 1000813096
+saved location with key 1000813096 as scraped_2020-10-02_05_57_04_941659.csv
+sum of all rows: 92518
