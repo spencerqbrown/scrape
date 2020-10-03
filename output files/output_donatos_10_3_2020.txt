@@ -1,0 +1,83 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Try the new cross-platform PowerShell https://aka.ms/pscore6
+
+PS C:\Users\Spencer\Desktop\scrape> cd py_files
+PS C:\Users\Spencer\Desktop\scrape\py_files> python
+Python 3.7.0 (v3.7.0:1bf9cc5093, Jun 27 2018, 04:06:47) [MSC v.1914 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> searchTerms = ["Name", "Address", "Town", "State"]
+>>> key = "Field2"
+>>> sourceFile = ".\\rescrape\\donatos_f.csv"
+>>> indices = list(range(0,19))
+>>> filePath = "C:\\Users\\Spencer\\Desktop\\\scrape\\py_files\\scrapes"
+>>> from simpleScraper import simpleScraper
+>>> simpleScraper(sourceFile=sourceFile, searchTerms=searchTerms,key=key,indices=indices,wait=[0.5,1.5],combine=False,statusCol="Status",filePath=filePath)
+combine: False  
+wait: [0.5, 1.5]
+
+DevTools listening on ws://127.0.0.1:65424/devtools/browser/272754e6-19f8-4ba3-971e-7c6b40b03b35
+failed to scrape location with key Donatos Pizza 5465 Ridge Rd PARMA OH due to unmatched address number, continuing...
+failed to scrape location with key Donatos Pizza 629 Montgomery Hwy VESTAVIA AL due to unmatched town, continuing...
+expected town: vestavia -found town: vestavia hills
+failed to scrape location with key Donatos Pizza 3044 Dixie Hwy EDGEWOOD KY due to unmatched town, continuing...
+expected town: edgewood -found town: erlanger
+[22896:14468:1003/121145.508:ERROR:device_event_log_impl.cc(208)] [12:11:45.508] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+expecting 147 reviews
+scrolling...
+finished scrolling, found 147 reviews
+preparing to scrape location with key Donatos Pizza 2769 Northland Plaza Dr COLUMBUS OH
+scraped location with key Donatos Pizza 2769 Northland Plaza Dr COLUMBUS OH with 147 reviews
+saving location with key Donatos Pizza 2769 Northland Plaza Dr COLUMBUS OH
+saved location with key Donatos Pizza 2769 Northland Plaza Dr COLUMBUS OH as scraped_2020-10-03_12_12_35_258155.csv
+failed to scrape location with key Donatos Pizza 7813 US 31 S INDIANAPOLIS IN due to unmatched town, continuing...
+expected town: s indianapolis -found town: indianapolis
+failed to scrape location with key Donatos Pizza 2260 US Highway 31 S GREENWOOD IN due to unmatched town, continuing...
+expected town: s greenwood -found town: greenwood
+expecting 128 reviews
+scrolling...
+finished scrolling, found 128 reviews
+preparing to scrape location with key Donatos Pizza 813 E Main St BROWNSBURG IN
+scraped location with key Donatos Pizza 813 E Main St BROWNSBURG IN with 128 reviews
+saving location with key Donatos Pizza 813 E Main St BROWNSBURG IN
+saved location with key Donatos Pizza 813 E Main St BROWNSBURG IN as scraped_2020-10-03_12_13_19_132125.csv
+failed to scrape location with key Donatos Pizza 7177 Cincinnati Dayton Rd CINCINNATI OH due to unmatched town, continuing...
+expected town: cincinnati -found town: west chester township
+failed to scrape location with key Donatos Pizza 4303 Roosevelt Blvd MIDDLETOWN OH due to unmatched address number, continuing...
+failed to scrape location with key Donatos Pizza 8087 Beckett Center Dr WEST CHESTER OH due to unmatched town, continuing...
+expected town: west chester -found town: west chester township
+expecting 169 reviews
+scrolling...
+finished scrolling, found 168 reviews
+preparing to scrape location with key Donatos Pizza 1201 Columbus Ave LEBANON OH
+scraped location with key Donatos Pizza 1201 Columbus Ave LEBANON OH with 168 reviews
+saving location with key Donatos Pizza 1201 Columbus Ave LEBANON OH
+saved location with key Donatos Pizza 1201 Columbus Ave LEBANON OH as scraped_2020-10-03_12_14_36_106331.csv
+failed to scrape location with key Donatos Pizza 11309 Montgomery Rd CINCINNATI OH due to unmatched address number, continuing...
+failed to scrape location with key Donatos Pizza 1214 Hill Rd N PICKERINGTON OH due to unmatched town, continuing...
+expected town: n pickerington -found town: pickerington
+expecting 97 reviews
+scrolling...
+finished scrolling, found 97 reviews
+preparing to scrape location with key Donatos Pizza 4515 Kenny Rd COLUMBUS OH
+scraped location with key Donatos Pizza 4515 Kenny Rd COLUMBUS OH with 97 reviews
+saving location with key Donatos Pizza 4515 Kenny Rd COLUMBUS OH
+saved location with key Donatos Pizza 4515 Kenny Rd COLUMBUS OH as scraped_2020-10-03_12_15_09_230724.csv
+failed to scrape location with key Donatos Pizza 221 W High St MOUNT VERNON OH due to unmatched town, continuing...
+expected town: mount vernon -found town: mt vernon
+failed to scrape location with key Donatos Pizza 1211 Columbus Ave WASHINGTON COURT HOUSE OH due to unmatched town, continuing...
+expected town: court house -found town: washington court house
+failed to scrape location with key Donatos Pizza 1891 Tamarack Cir N COLUMBUS OH due to unmatched town, continuing...
+expected town: n columbus -found town: columbus
+failed to scrape location with key Donatos Pizza 116 Broadway E GRANVILLE OH due to unmatched town, continuing...
+expected town: e granville -found town: granville
+failed to scrape location with key Donatos Pizza 3464 Wales Ave NW MASSILLON OH due to unmatched town, continuing...
+expected town: nw massillon -found town: massillon
+sum of all rows: 540
+Statuses: ['Failed', 'Failed', 'Failed', 'Scraped', 'Failed', 'Failed', 'Scraped', 'Failed', 'Failed', 'Failed', 'Scraped', 'Failed', 'Failed', 'Scraped', 'Failed', 'Failed', 'Failed', 'Failed', 'Failed']
+Statuses size:  19
+Status column size:  19
+>>>
+KeyboardInterrupt
+>>>
