@@ -62,23 +62,31 @@ def scrapeFromURLs(urls, checkAddress=True, combine=True, wait=[2,3], filePath="
                     dfs[i] = pd.DataFrame({})
                     i += 1
                     print("failed to scrape location with key",id,"due to unmatched address number, continuing...")
+                    logString = "failed to scrape location with key " + id + " due to unmatched address. Expected " + addr_number + ", but found " + found_addr_number
+                    logging.warning(logString)
                     continue
                 elif found_town != town:
                     dfs[i] = pd.DataFrame({})
                     i += 1
                     print("failed to scrape location with key",id,"due to unmatched town, continuing...")
                     print("expected town:",town,"-found town:",found_town)
+                    logString = "failed to scrape location with key " + id + " due to unmatched town. Expected " + town + ", but found " + found_town
+                    logging.warning(logString)
                     continue
                 elif found_state != state:
                     dfs[i] = pd.DataFrame({})
                     i += 1
                     print("failed to scrape location with key",id,"due to unmatched state, continuing...")
+                    logString = "failed to scrape location with key " + id + " due to unmatched state. Expected " + state + ", but found " + found_state
+                    logging.warning(logString)
                     continue
             else:
                 # if location address is not found, move on
                 dfs[i] = pd.DataFrame({})
                 i += 1
                 print("failed to scrape location with key",id,"due to unlisted location, continuing...")
+                logString = "Failed to scrape location with key " + id + " due to unlisted location."
+                logging.warning(logString)
                 continue
         
             
@@ -124,6 +132,8 @@ def scrapeFromURLs(urls, checkAddress=True, combine=True, wait=[2,3], filePath="
             dfs[i] = pd.DataFrame({})
             i += 1
             print("failed to scrape location with key",id,", continuing...")
+            logString = "failed to scrape location with key " + id + " for unknown reason."
+            logging.warning(logString)
             continue
         df["key"] = str(id)
         
