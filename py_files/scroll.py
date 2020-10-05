@@ -79,4 +79,4 @@ def scrollDown(driver, reviewTotal, wait):
             repCount = 0
             
     print("finished scrolling, found", x, "reviews")
-    return x / reviewTotal
+    return x, reviewTotal

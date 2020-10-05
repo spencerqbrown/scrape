@@ -7,7 +7,10 @@ from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 from scroll import scrollDown,getReviewTotal
 from scrapeFromList import scrapeFromList
+import logging
 def scrapeFromURLs(urls, checkAddress=True, combine=True, wait=[2,3], filePath=""):
+    log_file_name = "logfile_"+str(datetime.datetime.now()).replace(' ','_').replace(':','_').replace('.','_')+".log"
+    logging.basicConfig(filename=log_file_name, level=logging.DEBUG)
     print("combine:",combine)
     print("wait:",wait)
 
@@ -97,7 +100,8 @@ def scrapeFromURLs(urls, checkAddress=True, combine=True, wait=[2,3], filePath="
         repCount = 0
         # get at least 80% of reviews at location
         while percent_reviews_found < 0.8:
-            percent_reviews_found = scrollDown(driver, getReviewTotal(driver), wait)
+            x, reviewTotal = scrollDown(driver, getReviewTotal(driver), wait)
+            percent_reviews_found = x / reviewTotal
             print("Found",percent_reviews_found*100,"% of reviews for this location.")
             if percent_reviews_found < 0.8:
                 print("trying to scroll again...")
@@ -106,6 +110,8 @@ def scrapeFromURLs(urls, checkAddress=True, combine=True, wait=[2,3], filePath="
             repCount += 1
             # stop trying after 10 repetitions
             if repCount > 10:
+                logString = "Failed to scroll all reviews for location with key " + id + ". Found only " + x + " reviews out of " + reviewTotal
+                logging.warning(logString)
                 break
             
 
