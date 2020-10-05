@@ -59,7 +59,7 @@ def scrollDown(driver, reviewTotal, wait):
     repCount = 0
     print("scrolling...")
     # while we expect more reviews and we haven't repeated too much
-    while ((x < reviewTotal) and (repCount < 3)):
+    while ((x < reviewTotal) and (repCount < 10)):
         # pause to not look like a bot
         pauseScroll(wait)
         # select list of reviews
@@ -68,7 +68,7 @@ def scrollDown(driver, reviewTotal, wait):
         current_last = elements[-1]
         current_last.location_once_scrolled_into_view
         # wait until page loads
-        WebDriverWait(driver, 30).until(ec.invisibility_of_element_located((By.XPATH, "//div[@class='jfk-activityIndicator-icon']")))
+        WebDriverWait(driver, 60).until(ec.invisibility_of_element_located((By.XPATH, "//div[@class='jfk-activityIndicator-icon']")))
         # take the previous review count and replace it with the new one
         lastx = x
         x = len(driver.find_elements_by_xpath("//div[@class='gws-localreviews__general-reviews-block']//div[@class='WMbnJf gws-localreviews__google-review']"))
@@ -79,3 +79,4 @@ def scrollDown(driver, reviewTotal, wait):
             repCount = 0
             
     print("finished scrolling, found", x, "reviews")
+    return x / reviewTotal

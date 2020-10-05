@@ -93,7 +93,22 @@ def scrapeFromURLs(urls, checkAddress=True, combine=True, wait=[2,3], filePath="
         WebDriverWait(driver, 45).until(ec.presence_of_element_located((By.XPATH, "//div[@class='gws-localreviews__general-reviews-block']//div[@class='WMbnJf gws-localreviews__google-review']")))
         
         # scroll to bottom
-        scrollDown(driver, getReviewTotal(driver), wait)
+        percent_reviews_found = 0
+        repCount = 0
+        # get at least 80% of reviews at location
+        while percent_reviews_found < 0.8:
+            percent_reviews_found = scrollDown(driver, getReviewTotal(driver), wait)
+            print("Found",percent_reviews_found*100,"% of reviews for this location.")
+            if percent_reviews_found < 0.8:
+                print("trying to scroll again...")
+            else:
+                print("found most reviews, moving on...")
+            repCount += 1
+            # stop trying after 10 repetitions
+            if repCount > 10:
+                break
+            
+
         
         # scrape from loaded list
         # if a scrape fails, move onto the next one
