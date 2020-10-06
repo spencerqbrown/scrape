@@ -22,7 +22,7 @@ def simpleScraper(sourceFile, searchTerms, key, indices, wait=[2,3], combine=Tru
             raise ValueError
         # make status list and put into source file df
         status_final = ["Scraped" if s is 1 else "Failed" for s in status]
-        status_final = np.reshape(status_final, (19,1))
+        status_final = np.reshape(status_final, (len(status_final),1))
         source.loc[indices,[statusCol]] = status_final
         if overWrite:
             if (ext == "xlsx"):

@@ -62,7 +62,7 @@ def scrapeFromURLs(urls, checkAddress=True, combine=True, wait=[2,3], filePath="
                     dfs[i] = pd.DataFrame({})
                     i += 1
                     print("failed to scrape location with key",id,"due to unmatched address number, continuing...")
-                    logString = "failed to scrape location with key " + id + " due to unmatched address. Expected " + addr_number + ", but found " + found_addr_number
+                    logString = "failed to scrape location with key " + str(id) + " due to unmatched address. Expected " + str(addr_number) + ", but found " + str(found_addr_number)
                     logging.warning(logString)
                     continue
                 elif found_town != town:
@@ -70,14 +70,14 @@ def scrapeFromURLs(urls, checkAddress=True, combine=True, wait=[2,3], filePath="
                     i += 1
                     print("failed to scrape location with key",id,"due to unmatched town, continuing...")
                     print("expected town:",town,"-found town:",found_town)
-                    logString = "failed to scrape location with key " + id + " due to unmatched town. Expected " + town + ", but found " + found_town
+                    logString = "failed to scrape location with key " + str(id) + " due to unmatched town. Expected " + town + ", but found " + found_town
                     logging.warning(logString)
                     continue
                 elif found_state != state:
                     dfs[i] = pd.DataFrame({})
                     i += 1
                     print("failed to scrape location with key",id,"due to unmatched state, continuing...")
-                    logString = "failed to scrape location with key " + id + " due to unmatched state. Expected " + state + ", but found " + found_state
+                    logString = "failed to scrape location with key " + str(id) + " due to unmatched state. Expected " + state + ", but found " + found_state
                     logging.warning(logString)
                     continue
             else:
@@ -85,7 +85,7 @@ def scrapeFromURLs(urls, checkAddress=True, combine=True, wait=[2,3], filePath="
                 dfs[i] = pd.DataFrame({})
                 i += 1
                 print("failed to scrape location with key",id,"due to unlisted location, continuing...")
-                logString = "Failed to scrape location with key " + id + " due to unlisted location."
+                logString = "Failed to scrape location with key " + str(id) + " due to unlisted location."
                 logging.warning(logString)
                 continue
         
@@ -118,7 +118,7 @@ def scrapeFromURLs(urls, checkAddress=True, combine=True, wait=[2,3], filePath="
             repCount += 1
             # stop trying after 10 repetitions
             if repCount > 10:
-                logString = "Failed to scroll all reviews for location with key " + id + ". Found only " + x + " reviews out of " + reviewTotal
+                logString = "Failed to scroll all reviews for location with key " + str(id) + ". Found only " + str(x) + " reviews out of " + str(reviewTotal)
                 logging.warning(logString)
                 break
             
@@ -132,7 +132,7 @@ def scrapeFromURLs(urls, checkAddress=True, combine=True, wait=[2,3], filePath="
             dfs[i] = pd.DataFrame({})
             i += 1
             print("failed to scrape location with key",id,", continuing...")
-            logString = "failed to scrape location with key " + id + " for unknown reason."
+            logString = "failed to scrape location with key " + str(id) + " for unknown reason."
             logging.warning(logString)
             continue
         df["key"] = str(id)
