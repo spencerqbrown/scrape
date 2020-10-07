@@ -10,7 +10,7 @@ from scrapeFromList import scrapeFromList
 import logging
 def scrapeFromURLs(urls, checkAddress=True, combine=True, wait=[2,3], filePath=""):
     log_file_name = "logfile_"+str(datetime.datetime.now()).replace(' ','_').replace(':','_').replace('.','_')+".log"
-    logging.basicConfig(filename=log_file_name, level=logging.DEBUG)
+    logging.basicConfig(filename=log_file_name, level=logging.WARNING)
     print("combine:",combine)
     print("wait:",wait)
 
