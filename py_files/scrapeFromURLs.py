@@ -101,7 +101,7 @@ def scrapeFromURLs(urls, checkAddress=True, combine=True, wait=[2,3], filePath="
             i += 1
             print("failed to scrape location with key",id,"due to missing button, continuing...")
             continue
-        WebDriverWait(driver, 45).until(ec.presence_of_element_located((By.XPATH, "//div[@class='gws-localreviews__general-reviews-block']//div[@class='WMbnJf gws-localreviews__google-review']")))
+        WebDriverWait(driver, 180).until(ec.presence_of_element_located((By.XPATH, "//div[@class='gws-localreviews__general-reviews-block']//div[@class='WMbnJf gws-localreviews__google-review']")))
         
         # scroll to bottom
         percent_reviews_found = 0
