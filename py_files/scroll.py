@@ -64,8 +64,16 @@ def scrollDown(driver, reviewTotal, wait):
         pauseScroll(wait)
         # select list of reviews
         elements = driver.find_elements_by_xpath("//div[@class='gws-localreviews__general-reviews-block']//div[@class='WMbnJf gws-localreviews__google-review']")
-        # find the last visible review and go to it
+        # find the last visible review
         current_last = elements[-1]
+        # check that there is not a response to the last review, else set that response as current_last
+        owner_responses = driver.find_elements_by_xpath("//div[@class='LfKETd']")
+        if (len(owner_responses) > 0):
+            last_owner_response = owner_responses[-1]
+            if last_owner_response.location['y'] > current_last.location['y']:
+                print(last_owner_response.location['y'])
+                current_last = last_owner_response
+        # go to current last element
         current_last.location_once_scrolled_into_view
         # wait until page loads
         WebDriverWait(driver, 60).until(ec.invisibility_of_element_located((By.XPATH, "//div[@class='jfk-activityIndicator-icon']")))

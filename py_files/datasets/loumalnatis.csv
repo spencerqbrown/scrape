@@ -1,3 +1,3 @@
-Company Name,Address 1,City,State,Zip,Phone,Google Link,Status
-Loumalnatis,36 US 41,SCHERERVILLE,IN,46375,,"https://www.google.com/maps/place/Lou+Malnati's+Pizzeria+-+Carry+Out/@41.5221833,-87.4718053,17z/data=!3m1!4b1!4m5!3m4!1s0x8811e17ccc6ab58d:0xebf02da715cb8781!8m2!3d41.5221833!4d-87.4718053",
-Loumalnatis,3120 Glenview Rd,GLENVIEW,IL,60025,8472784600.0,"https://www.google.com/maps/place/Lou+Malnati's+Pizzeria+-+Carry+Out/@42.073405,-87.8372827,17z/data=!3m1!4b1!4m5!3m4!1s0x880fc7524ec3095f:0x6c192cd21f906196!8m2!3d42.073405!4d-87.8372827",
+Company Name,Address 1,City,State,Zip,Phone,Google Link,Company Name Processed,Status
+Loumalnatis,36 US 41,SCHERERVILLE,IN,46375,,"https://www.google.com/maps/place/Lou+Malnati's+Pizzeria+-+Carry+Out/@41.5221833,-87.4718053,17z/data=!3m1!4b1!4m5!3m4!1s0x8811e17ccc6ab58d:0xebf02da715cb8781!8m2!3d41.5221833!4d-87.4718053",loumalnatis,
+Loumalnatis,3120 Glenview Rd,GLENVIEW,IL,60025,8472784600.0,"https://www.google.com/maps/place/Lou+Malnati's+Pizzeria+-+Carry+Out/@42.073405,-87.8372827,17z/data=!3m1!4b1!4m5!3m4!1s0x880fc7524ec3095f:0x6c192cd21f906196!8m2!3d42.073405!4d-87.8372827",loumalnatis,

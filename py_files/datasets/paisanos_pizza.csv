@@ -1,5 +1,5 @@
-Company Name,Address 1,City,State,Zip,Phone,Google Link,Status
-Paisano's Pizza,1533 South Pleasant Valley Road 3G,WINCHESTER,VA,22601,5405421600.0,"https://www.google.com/maps/place/Paisano's/@39.1678178,-78.1641171,17z/data=!3m1!4b1!4m5!3m4!1s0x89b5eef9a25e33c9:0xf478dcb76058edb3!8m2!3d39.1678178!4d-78.1641171",
-Paisano's Pizza,1060 Brentwood Road NE,WASHINGTON,DC,20018,2028325555.0,"https://www.google.com/maps/place/Paisano's/@38.919918,-76.9929981,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7b99c7ce4457b:0x51922a8acdcbccd8!8m2!3d38.919918!4d-76.9929981",
-Paisano's Pizza,1515 Stafford MarketPl,STAFFORD,VA,22556,5402889900.0,"https://www.google.com/maps/place/Paisano's/@38.4714515,-77.4108689,17z/data=!3m1!4b1!4m5!3m4!1s0x89b6ef9678e723fb:0x92b4eb2b307962b8!8m2!3d38.4714515!4d-77.4108689",
-Paisano's Pizza,5868 Ballenger Creek Pike,FREDERICK,MD,21703,3016958800.0,"https://www.google.com/maps/place/Paisano's/@39.3943652,-77.4393653,17z/data=!3m1!4b1!4m5!3m4!1s0x89c9dba89e27fcdd:0x3b4f5d386e1152cf!8m2!3d39.3943652!4d-77.4393653",
+Company Name,Address 1,City,State,Zip,Phone,Google Link,Company Name Processed,Status
+Paisano's Pizza,1533 South Pleasant Valley Road 3G,WINCHESTER,VA,22601,5405421600.0,"https://www.google.com/maps/place/Paisano's/@39.1678178,-78.1641171,17z/data=!3m1!4b1!4m5!3m4!1s0x89b5eef9a25e33c9:0xf478dcb76058edb3!8m2!3d39.1678178!4d-78.1641171",paisanos_pizza,
+Paisano's Pizza,1060 Brentwood Road NE,WASHINGTON,DC,20018,2028325555.0,"https://www.google.com/maps/place/Paisano's/@38.919918,-76.9929981,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7b99c7ce4457b:0x51922a8acdcbccd8!8m2!3d38.919918!4d-76.9929981",paisanos_pizza,
+Paisano's Pizza,1515 Stafford MarketPl,STAFFORD,VA,22556,5402889900.0,"https://www.google.com/maps/place/Paisano's/@38.4714515,-77.4108689,17z/data=!3m1!4b1!4m5!3m4!1s0x89b6ef9678e723fb:0x92b4eb2b307962b8!8m2!3d38.4714515!4d-77.4108689",paisanos_pizza,
+Paisano's Pizza,5868 Ballenger Creek Pike,FREDERICK,MD,21703,3016958800.0,"https://www.google.com/maps/place/Paisano's/@39.3943652,-77.4393653,17z/data=!3m1!4b1!4m5!3m4!1s0x89c9dba89e27fcdd:0x3b4f5d386e1152cf!8m2!3d39.3943652!4d-77.4393653",paisanos_pizza,

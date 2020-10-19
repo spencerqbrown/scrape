@@ -1,2 +1,2 @@
-Company Name,Address 1,City,State,Zip,Phone,Google Link,Status
-Steelworks Buffett & Grill,77 Sands Blvd,BETHLEHEM,PA,18015-7705,6104195555.0,"https://www.google.com/maps/place/Steelworks+Buffet+%26+Grill/@40.6141432,-75.3594013,17z/data=!4m5!3m4!1s0x89c43e37465d1ba3:0xc8561f4cde021458!8m2!3d40.6141391!4d-75.3572126?hl=en",
+Company Name,Address 1,City,State,Zip,Phone,Google Link,Company Name Processed,Status
+Steelworks Buffett & Grill,77 Sands Blvd,BETHLEHEM,PA,18015-7705,6104195555.0,"https://www.google.com/maps/place/Steelworks+Buffet+%26+Grill/@40.6141432,-75.3594013,17z/data=!4m5!3m4!1s0x89c43e37465d1ba3:0xc8561f4cde021458!8m2!3d40.6141391!4d-75.3572126?hl=en",steelworks_buffett_&_grill,

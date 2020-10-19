@@ -1,2 +1,2 @@
-Company Name,Address 1,City,State,Zip,Phone,Google Link,Status
-Straw Hat Grill,18 Highway 50,STATELINE,NV,89449,7755869000.0,"https://www.google.com/maps/place/Straw+Hat+Pizza+and+Sports+Bar/@38.9593857,-119.9421629,17z/data=!3m1!4b1!4m5!3m4!1s0x80999a9d788b6f77:0x845f6f508475e067!8m2!3d38.9593857!4d-119.9421629",
+Company Name,Address 1,City,State,Zip,Phone,Google Link,Company Name Processed,Status
+Straw Hat Grill,18 Highway 50,STATELINE,NV,89449,7755869000.0,"https://www.google.com/maps/place/Straw+Hat+Pizza+and+Sports+Bar/@38.9593857,-119.9421629,17z/data=!3m1!4b1!4m5!3m4!1s0x80999a9d788b6f77:0x845f6f508475e067!8m2!3d38.9593857!4d-119.9421629",straw_hat_grill,
