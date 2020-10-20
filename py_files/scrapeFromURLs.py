@@ -5,6 +5,7 @@ from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
+from selenium.common.exceptions import TimeoutException
 from scroll import scrollDown,getReviewTotal
 from scrapeFromList import scrapeFromList
 import logging
@@ -90,24 +91,33 @@ def scrapeFromURLs(urls, checkAddress=True, combine=True, wait=[2,3], filePath="
                 continue
         
             
-        
-        button = driver.find_elements_by_class_name("hqzQac")
-        if (len(button) > 0):
-            # button found
-            button[0].click()
-        else:
+        reloads = 0
+        while (reloads < 5):
+            button = driver.find_elements_by_class_name("hqzQac")
+            if (len(button) > 0):
+                # button found
+                button[0].click()
+            else:
+                # no button found
+                # try to reload
+                try:
+                    WebDriverWait(driver, 180).until(ec.presence_of_element_located((By.XPATH, "//div[@class='gws-localreviews__general-reviews-block']//div[@class='WMbnJf gws-localreviews__google-review']")))
+                except TimeoutException:
+                    driver.get(url)
+                    reloads += 1
+        if (reloads >= 5):
             # no button found
             dfs[i] = pd.DataFrame({})
             i += 1
             print("failed to scrape location with key",id,"due to missing button, continuing...")
             continue
-        WebDriverWait(driver, 180).until(ec.presence_of_element_located((By.XPATH, "//div[@class='gws-localreviews__general-reviews-block']//div[@class='WMbnJf gws-localreviews__google-review']")))
         
         # scroll to bottom
         percent_reviews_found = 0
         repCount = 0
+        reviewTotal = 11
         # get at least 80% of reviews at location
-        while percent_reviews_found < 0.8:
+        while (percent_reviews_found < 0.8) and (reviewTotal >= 11):
             x, reviewTotal = scrollDown(driver, getReviewTotal(driver), wait)
             percent_reviews_found = x / reviewTotal
             print("Found",percent_reviews_found*100,"% of reviews for this location.")

@@ -1,102 +1,93 @@
-Anthony's Coal Fired Pizza
-Bananas Ultimate Juice Bar
-Blackjack Pizza
-Blaze Pizza
-Boston's The Gourmet Pizza Restaurant & Sports Bar
-BOSTON'S THE GOURMET PIZZA RESTAURANT & SPORTS BAR
-Brick Oven Pizza Company
-Brixx Wood Fired Pizza
-California Pizza Kitchen
-Chanellos Pizza
-Chanello's Pizza
-CheeZies Pizza
-Chuck E. Cheese's
-CiCi's Pizza
-CiCi's To Go
-Cobalt
-Cottage Inn Pizza
-CPK ASAP
-D'Angelo Grilled Sandwiches
-Deweys Pizza
-Domino's
-Donatos Pizza
-Extreme Pizza
-Figaro's Pizza
-Fox's Pizza Den
-GattiLand
-Gatti's Pizza
-Gatti's Pizza Buffet
-GattiTown
-Giordano's Restaurant & Pizza
-Godfather's Pizza
-Green Leaf's Grill & Bananas Ultimate Juice Bar
-Guille's Mexican Grill
-Hungry Howie's Pizza
-Hungry Howie's Pizza & Subs
-Jet's Pizza
-Johnnie's New York Pizzeria
-Johnny Bruscos New York Style Pizza
-Johnnys New York Style Pizza
-LaRosa's Pizzeria
-Ledo Pizza
-Little Caesar's
-Little Caesars Pizza
-Lou Malnatis Pizzeria
-Loumalnatis
-Marco's Pizza
-Marco's pizza
-Mellow Mushroom
-MOD Pizza
-Monicals Pizza
-Mountain Mike's Pizza
-Nick 'N' Willy's
-Old Chicago Pizza & Taproom
-Paisanos
-Paisano's Pizza
-Papa Gino's Pizzeria
-Papa John's Pizza
-Papa Murphy's Take 'N' Bake Pizza
-Peter Piper Pizza
-Pie Five Pizza
-PIEOLOGY PIZZERIA
-Pizza Bolis
-Pizza Boli's
-Pizza Factory
-PIZZA FACTORY
-Pizza Guys
-Pizza Hut
-PIZZA HUT
-Pizza Inn
-Pizza Inn Express
-Pizza Italia
-Pizza Plus
-Pizza Pro
-Pizza Schmizza
-PizzaRev
-Pizzeria Locale
-Rosatis Pizza
-ROSATIS PIZZA
-Round Table Pizza
-ROUND TABLE PIZZA
-Sbarro
-Schmizza Pub & Grub
-Schmizza Public House
-Shakey's Pizza Parlor
-Simple Simon's Pizza
-Snappy Tomato Pizza
-South Philly Steaks & Fries
-Steelworks Buffett & Grill
-Straw Hat Grill
-Straw Hat Pizza
-Sukotto
-The Market
-The Market by Villa
-The Office Beer Bar & Grill
-The Original Italian Pie
-The Pizza Ranch
-Toppers Pizza
-Villa Fresh Italian Kitchen
-Villa Pizza
-Vocelli Pizza
-VOCELLI PIZZA
+anthonys coal fired pizza
+bananas ultimate juice bar
+blackjack pizza
+blaze pizza
+bostons the gourmet pizza restaurant & sports bar
+brick oven pizza company
+brixx wood fired pizza
+california pizza kitchen
+chanellos pizza
+cheezies pizza
+chuck e cheeses
+cicis pizza
+cicis to go
+cobalt
+cottage inn pizza
+cpk asap
+dangelo grilled sandwiches
+deweys pizza
+dominos
+donatos pizza
+extreme pizza
+figaros pizza
+foxs pizza den
+gattiland
+gattis pizza
+gattis pizza buffet
+gattitown
+giordanos restaurant & pizza
+godfathers pizza
+green leafs grill & bananas ultimate juice bar
+guilles mexican grill
+hungry howies pizza
+hungry howies pizza & subs
+jets pizza
+johnnies new york pizzeria
+johnny bruscos new york style pizza
+johnnys new york style pizza
+larosas pizzeria
+ledo pizza
+little caesars
+little caesars pizza
+lou malnatis pizzeria
+loumalnatis
+marcos pizza
+mellow mushroom
+mod pizza
+monicals pizza
+mountain mikes pizza
+nick n willys
+old chicago pizza & taproom
+paisanos
+paisanos pizza
+papa ginos pizzeria
+papa johns pizza
+papa murphys take n bake pizza
+peter piper pizza
+pie five pizza
+pieology pizzeria
+pizza bolis
+pizza factory
+pizza guys
+pizza hut
+pizza inn
+pizza inn express
+pizza italia
+pizza plus
+pizza pro
+pizza schmizza
+pizzarev
+pizzeria locale
+rosatis pizza
+round table pizza
+sbarro
+schmizza pub & grub
+schmizza public house
+shakeys pizza parlor
+simple simons pizza
+snappy tomato pizza
+south philly steaks & fries
+steelworks buffett & grill
+straw hat grill
+straw hat pizza
+sukotto
+the market
+the market by villa
+the office beer bar & grill
+the original italian pie
+the pizza ranch
+toppers pizza
+villa fresh italian kitchen
+villa pizza
+vocelli pizza
 zpizza
