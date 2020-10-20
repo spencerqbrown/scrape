@@ -71,7 +71,6 @@ def scrollDown(driver, reviewTotal, wait):
         if (len(owner_responses) > 0):
             last_owner_response = owner_responses[-1]
             if last_owner_response.location['y'] > current_last.location['y']:
-                print(last_owner_response.location['y'])
                 current_last = last_owner_response
         # go to current last element
         current_last.location_once_scrolled_into_view
