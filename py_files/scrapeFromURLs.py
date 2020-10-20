@@ -92,11 +92,13 @@ def scrapeFromURLs(urls, checkAddress=True, combine=True, wait=[2,3], filePath="
         
             
         reloads = 0
-        while (reloads < 5):
+        keep_going = True
+        while (keep_going):
             button = driver.find_elements_by_class_name("hqzQac")
             if (len(button) > 0):
                 # button found
                 button[0].click()
+                keep_going = False
             else:
                 # no button found
                 # try to reload
@@ -105,6 +107,8 @@ def scrapeFromURLs(urls, checkAddress=True, combine=True, wait=[2,3], filePath="
                 except TimeoutException:
                     driver.get(url)
                     reloads += 1
+                    if reloads >= 5:
+                        keep_going = False
         if (reloads >= 5):
             # no button found
             dfs[i] = pd.DataFrame({})
