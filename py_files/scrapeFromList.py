@@ -33,7 +33,8 @@ def scrapeFromList(driver, key, name=True, stars=True, text=True, timeSince=True
     # stars
     starsList = []
     if (stars):
-        starsPath = ".//div[@style='vertical-align:top']//div[@class='PuaHbe']//g-review-stars[@style='padding-right:7px']//span[@class='Fam1ne EBe2gf']"
+        starsPath = ".//div[@style='vertical-align:top']//div[@class='PuaHbe']//g-review-stars[@class='lTi8oc']//span[@class='Fam1ne EBe2gf']"
+        # starsPath = ".//div[@style='vertical-align:top']//div[@class='PuaHbe']//g-review-stars[@style='padding-right:7px']//span[@class='Fam1ne EBe2gf']"
         i = 0
         starsList = [0]*len(elements)
         for e in elements:
