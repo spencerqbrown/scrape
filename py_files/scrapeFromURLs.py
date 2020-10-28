@@ -103,7 +103,7 @@ def scrapeFromURLs(urls, checkAddress=True, combine=True, wait=[2,3], filePath="
                 # no button found
                 # try to reload
                 try:
-                    WebDriverWait(driver, 180).until(ec.presence_of_element_located((By.XPATH, "//div[@class='gws-localreviews__general-reviews-block']//div[@class='WMbnJf gws-localreviews__google-review']")))
+                    WebDriverWait(driver, 15).until(ec.presence_of_element_located((By.XPATH, "//div[@class='gws-localreviews__general-reviews-block']//div[@class='WMbnJf gws-localreviews__google-review']")))
                 except TimeoutException:
                     driver.get(url)
                     reloads += 1

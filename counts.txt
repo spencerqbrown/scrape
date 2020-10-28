@@ -1,0 +1,93 @@
+dominos: 5877
+pizza hut: 5771
+little caesars pizza: 4142
+papa johns pizza: 2994
+papa murphys take n bake pizza: 1340
+marcos pizza: 898
+hungry howies pizza & subs: 534
+chuck e cheeses: 531
+mod pizza: 463
+godfathers pizza: 422
+round table pizza: 415
+cicis pizza: 396
+jets pizza: 385
+blaze pizza: 320
+sbarro: 305
+rosatis pizza: 218
+foxs pizza den: 210
+mountain mikes pizza: 210
+the pizza ranch: 207
+california pizza kitchen: 192
+mellow mushroom: 189
+simple simons pizza: 160
+villa fresh italian kitchen: 158
+donatos pizza: 155
+pizza inn: 138
+pieology pizzeria: 125
+pizza factory: 103
+ledo pizza: 101
+peter piper pizza: 99
+vocelli pizza: 87
+papa ginos pizzeria: 87
+old chicago pizza & taproom: 83
+dangelo grilled sandwiches: 83
+pizza bolis: 80
+pizza pro: 70
+giordanos restaurant & pizza: 69
+larosas pizzeria: 66
+pizza guys: 66
+anthonys coal fired pizza: 65
+toppers pizza: 64
+gattis pizza: 64
+pizza plus: 63
+monicals pizza: 62
+pie five pizza: 56
+lou malnatis pizzeria: 53
+cottage inn pizza: 53
+shakeys pizza parlor: 50
+johnnys new york style pizza: 50
+snappy tomato pizza: 47
+blackjack pizza: 40
+extreme pizza: 36
+zpizza: 33
+pizzarev: 33
+paisanos: 33
+figaros pizza: 31
+chanellos pizza: 30
+brixx wood fired pizza: 29
+little caesars: 25
+deweys pizza: 24
+bostons the gourmet pizza restaurant & sports bar: 22
+straw hat pizza: 22
+villa pizza: 17
+johnny bruscos new york style pizza: 17
+green leafs grill & bananas ultimate juice bar: 14
+schmizza pub & grub: 11
+cheezies pizza: 9
+pizza schmizza: 9
+cicis to go: 9
+south philly steaks & fries: 8
+pizza inn express: 6
+the original italian pie: 6
+hungry howies pizza: 5
+paisanos pizza: 4
+gattitown: 4
+johnnies new york pizzeria: 4
+nick n willys: 3
+brick oven pizza company: 3
+loumalnatis: 2
+schmizza public house: 2
+bananas ultimate juice bar: 2
+pizzeria locale: 2
+cpk asap: 2
+the office beer bar & grill: 1
+the market by villa: 1
+steelworks buffett & grill: 1
+pizza italia: 1
+guilles mexican grill: 1
+straw hat grill: 1
+cobalt: 1
+the market: 1
+sukotto: 1
+gattis pizza buffet: 1
+gattiland: 1
