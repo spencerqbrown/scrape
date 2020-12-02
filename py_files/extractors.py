@@ -19,10 +19,10 @@ def extractURLs(sourceFile, searchTerms, key, indices):
     
     search = df.loc[indices, searchTerms + key] # gets df with only search terms in desired rows
     
-    search["url"] = baseString + search[searchTerms[0]] # column of base plus first search term
+    search["url"] = baseString + search[searchTerms[0]].replace("&", "") # column of base plus first search term
     # creates a column of url by adding on all other terms
     for s in searchTerms[1:]:
-        search["url"] = search["url"] + "+" + search[s].astype(str)
+        search["url"] = search["url"] + "+" + search[s].astype(str).replace("&", "")
         
     # converts key back into string
     key = key[0]
