@@ -25,7 +25,7 @@ def scrapeFromURLs(urls, checkAddress=True, combine=True, wait=[2,3], filePath="
         raise ValueError
         
     # start selenium stuff
-    driver = webdriver.Chrome('./chromedriver')
+    driver = webdriver.Chrome('/home/spencer/Documents/Projects/scrape/py_files/chromedriver')
     
     dfs = [0]*len(urls)
     
