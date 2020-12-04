@@ -6,10 +6,11 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 from selenium.common.exceptions import TimeoutException
+from selenium.webdriver.common.keys import Keys
 from scroll import scrollDown,getReviewTotal
 from scrapeFromList import scrapeFromList
 import logging
-def scrapeFromURLs(urls, checkAddress=True, combine=True, wait=[2,3], filePath=""):
+def scrapeFromURLs(urls, checkAddress=True, combine=True, wait=[2,3], filePath="", alternate=False):
     log_file_name = "logfile_"+str(datetime.datetime.now()).replace(' ','_').replace(':','_').replace('.','_')+".log"
     logging.basicConfig(filename=log_file_name, level=logging.WARNING)
     print("combine:",combine)
@@ -28,6 +29,10 @@ def scrapeFromURLs(urls, checkAddress=True, combine=True, wait=[2,3], filePath="
     driver = webdriver.Chrome('/home/spencer/Documents/Projects/scrape/py_files/chromedriver')
     
     dfs = [0]*len(urls)
+
+    # if alternate method, go to google base page temporarily
+    if alternate:
+        driver.get("https://www.google.com/search?q=a")
     
     # for each id
     r_count = 0
@@ -36,8 +41,17 @@ def scrapeFromURLs(urls, checkAddress=True, combine=True, wait=[2,3], filePath="
     for id in urls:
         
         # go to url
+        # if alternate use previous page as basis and do a google search from there
         url = urls.get(id)
-        driver.get(url)
+        if alternate:
+            url_terms = " ".join(url.split("+"))
+            search_box = driver.find_element_by_xpath("//input[@title='Search']")
+            search_box.clear()
+            search_box.send_keys(url_terms)
+            search_box.send_keys(Keys.ENTER)
+        # if not alternate, go straight to url
+        else:
+            driver.get(url)
         
         # check that address is correct
         # note this will assume the second url parameter is address number, last is state, second to last is town
@@ -122,7 +136,10 @@ def scrapeFromURLs(urls, checkAddress=True, combine=True, wait=[2,3], filePath="
         reviewTotal = 11
         # get at least 80% of reviews at location
         while (percent_reviews_found < 0.8) and (reviewTotal >= 11):
-            x, reviewTotal = scrollDown(driver, getReviewTotal(driver), wait)
+            reviewTotal = getReviewTotal(driver)
+            print(reviewTotal)
+            x = scrollDown(driver, reviewTotal, wait)
+            print(x)
             percent_reviews_found = x / reviewTotal
             print("Found",percent_reviews_found*100,"% of reviews for this location.")
             if percent_reviews_found < 0.8:

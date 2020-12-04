@@ -3,14 +3,14 @@ import numpy as np
 import pandas as pd
 from extractors import extractURLs
 from scrapeFromURLs import scrapeFromURLs
-def simpleScraper(sourceFile, searchTerms, key, indices, wait=[2,3], combine=True, statusCol=None, overWrite=False, checkAddress=True, filePath=""):
+def simpleScraper(sourceFile, searchTerms, key, indices, wait=[2,3], combine=True, statusCol=None, overWrite=False, checkAddress=True, filePath="", alternate=False):
     
     # get url dict
     ext = sourceFile.split(".")[-1] # file extension
     urls = extractURLs(sourceFile, searchTerms, key, indices)
     
     # scrape and save
-    status = scrapeFromURLs(urls=urls, checkAddress=checkAddress, combine=combine, wait=wait, filePath=filePath)
+    status = scrapeFromURLs(urls=urls, checkAddress=checkAddress, combine=combine, wait=wait, filePath=filePath, alternate=alternate)
     
     # mark source file
     if statusCol is not None:

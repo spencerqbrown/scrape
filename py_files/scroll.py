@@ -43,7 +43,9 @@ def pauseScroll(wait):
     time.sleep(waitTime)
 
 def getReviewTotal(driver):
-    raw = driver.find_element_by_xpath("//span[@class='hqzQac']").text
+    review_count_class = "hqzQac"
+    raw = driver.find_element_by_xpath("//span[@class='" + review_count_class + "']").text
+    print(raw)
     count = int(raw.split(" ")[0].replace(',',''))
     print("expecting", count, "reviews")
     return count
@@ -54,7 +56,13 @@ from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
 def scrollDown(driver, reviewTotal, wait):
-    x = len(driver.find_elements_by_xpath("//div[@class='gws-localreviews__general-reviews-block']//div[@class='WMbnJf gws-localreviews__google-review']"))
+    # set path strings
+    review_block_class = "gws-localreviews__general-reviews-block"
+    review_class = "WMbnJf vY6njf gws-localreviews__google-review"
+
+    # wait until review block is visible
+    WebDriverWait(driver, 15).until(ec.presence_of_element_located((By.XPATH, "//div[@class='" + review_block_class + "']//div[@class='" + review_class + "']")))
+    x = len(driver.find_elements_by_xpath("//div[@class='" + review_block_class + "']//div[@class='" + review_class + "']"))
     lastx = x - 1
     repCount = 0
     print("scrolling...")
@@ -63,7 +71,7 @@ def scrollDown(driver, reviewTotal, wait):
         # pause to not look like a bot
         pauseScroll(wait)
         # select list of reviews
-        elements = driver.find_elements_by_xpath("//div[@class='gws-localreviews__general-reviews-block']//div[@class='WMbnJf gws-localreviews__google-review']")
+        elements = driver.find_elements_by_xpath("//div[@class='" + review_block_class + "']//div[@class='" + review_class + "']")
         # find the last visible review
         current_last = elements[-1]
         # check that there is not a response to the last review, else set that response as current_last
@@ -78,7 +86,7 @@ def scrollDown(driver, reviewTotal, wait):
         WebDriverWait(driver, 180).until(ec.invisibility_of_element_located((By.XPATH, "//div[@class='jfk-activityIndicator-icon']")))
         # take the previous review count and replace it with the new one
         lastx = x
-        x = len(driver.find_elements_by_xpath("//div[@class='gws-localreviews__general-reviews-block']//div[@class='WMbnJf gws-localreviews__google-review']"))
+        x = len(driver.find_elements_by_xpath("//div[@class='" + review_block_class + "']//div[@class='" + review_class + "']"))
         # if more reviews are not added to the visible reviews, mark repetition
         if (lastx == x):
             repCount += 1
@@ -86,4 +94,4 @@ def scrollDown(driver, reviewTotal, wait):
             repCount = 0
             
     print("finished scrolling, found", x, "reviews")
-    return x, reviewTotal
+    return x

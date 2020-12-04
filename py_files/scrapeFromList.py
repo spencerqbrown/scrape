@@ -2,7 +2,11 @@ import pandas as pd
 from selenium.common.exceptions import NoSuchElementException
 # note that this assumes scrolling has already occurred
 def scrapeFromList(driver, key, name=True, stars=True, text=True, timeSince=True, openStatus=True):
-    elements = driver.find_elements_by_xpath("//div[@class='gws-localreviews__general-reviews-block']//div[@class='WMbnJf gws-localreviews__google-review']")
+    # set path strings
+    review_block_class = "gws-localreviews__general-reviews-block"
+    review_class = "WMbnJf vY6njf gws-localreviews__google-review"
+
+    elements = driver.find_elements_by_xpath("//div[@class='" + review_block_class + "']//div[@class='" + review_class + "']")
     columnsBin = [name, stars, text, timeSince, openStatus]
     columnsNames = ["name", "stars", "text", "timeSince", "openStatus"]
     columnsPresent = [x for i, x in enumerate(columnsNames) if columnsBin[i]] # gets included columns
