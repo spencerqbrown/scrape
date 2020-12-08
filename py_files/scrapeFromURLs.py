@@ -10,7 +10,7 @@ from selenium.webdriver.common.keys import Keys
 from scroll import scrollDown,getReviewTotal
 from scrapeFromList import scrapeFromList
 import logging
-def scrapeFromURLs(urls, checkAddress=True, combine=True, wait=[2,3], filePath="", alternate=False):
+def scrapeFromURLs(urls, checkAddress=True, combine=True, wait=[2,3], filePath="", alternate=False, limit=None):
     log_file_name = "logfile_"+str(datetime.datetime.now()).replace(' ','_').replace(':','_').replace('.','_')+".log"
     logging.basicConfig(filename=log_file_name, level=logging.WARNING)
     print("combine:",combine)
@@ -135,8 +135,11 @@ def scrapeFromURLs(urls, checkAddress=True, combine=True, wait=[2,3], filePath="
         repCount = 0
         reviewTotal = 11
         # get at least 80% of reviews at location
-        while (percent_reviews_found < 0.8) and (reviewTotal >= 11):
+        while (percent_reviews_found < 0.9) and (reviewTotal >= 11):
             reviewTotal = getReviewTotal(driver)
+            if (limit != None) and (reviewTotal > limit):
+                reviewTotal = limit
+                print("Total reviews for location limited to " + str(limit))
             print(reviewTotal)
             x = scrollDown(driver, reviewTotal, wait)
             print(x)
