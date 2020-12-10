@@ -10,6 +10,7 @@ from selenium.webdriver.common.keys import Keys
 from scroll import scrollDown,getReviewTotal
 from scrapeFromList import scrapeFromList
 import logging
+import traceback
 def scrapeFromURLs(urls, checkAddress=True, combine=True, wait=[2,3], filePath="", alternate=False, limit=None):
     log_file_name = "logfile_"+str(datetime.datetime.now()).replace(' ','_').replace(':','_').replace('.','_')+".log"
     logging.basicConfig(filename=log_file_name, level=logging.WARNING)
@@ -44,9 +45,10 @@ def scrapeFromURLs(urls, checkAddress=True, combine=True, wait=[2,3], filePath="
         # if alternate use previous page as basis and do a google search from there
         url = urls.get(id)
         if alternate:
-            url_terms = " ".join(url.split("+"))
-            search_box = driver.find_element_by_xpath("//input[@title='Search']")
+            url_terms = " ".join(url.split("=")[1].split("+"))
+            search_box = driver.find_element_by_xpath("//input[@aria-label='Search']")
             search_box.clear()
+            print("Seaching: " + url_terms)
             search_box.send_keys(url_terms)
             search_box.send_keys(Keys.ENTER)
         # if not alternate, go straight to url
@@ -119,7 +121,15 @@ def scrapeFromURLs(urls, checkAddress=True, combine=True, wait=[2,3], filePath="
                 try:
                     WebDriverWait(driver, 15).until(ec.presence_of_element_located((By.XPATH, "//div[@class='gws-localreviews__general-reviews-block']//div[@class='WMbnJf gws-localreviews__google-review']")))
                 except TimeoutException:
-                    driver.get(url)
+                    if alternate:
+                        url_terms = " ".join(url.split("=")[1].split("+"))
+                        search_box = driver.find_element_by_xpath("//input[@aria-label='Search']")
+                        search_box.clear()
+                        print("Seaching: " + url_terms)
+                        search_box.send_keys(url_terms)
+                        search_box.send_keys(Keys.ENTER)
+                    else:
+                        driver.get(url)
                     reloads += 1
                     if reloads >= 5:
                         keep_going = False
@@ -166,6 +176,7 @@ def scrapeFromURLs(urls, checkAddress=True, combine=True, wait=[2,3], filePath="
             dfs[i] = pd.DataFrame({})
             i += 1
             print("failed to scrape location with key",id,", continuing...")
+            traceback.print_exc()
             logString = "failed to scrape location with key " + str(id) + " for unknown reason."
             logging.warning(logString)
             continue
