@@ -106,7 +106,10 @@ def scrapeFromURLs(urls, checkAddress=True, combine=True, wait=[2,3], filePath="
                 logging.warning(logString)
                 continue
         
-            
+
+
+        review_block_class = "gws-localreviews__general-reviews-block"
+        review_class = "WMbnJf vY6njf gws-localreviews__google-review" 
         reloads = 0
         keep_going = True
         while (keep_going):
@@ -119,7 +122,7 @@ def scrapeFromURLs(urls, checkAddress=True, combine=True, wait=[2,3], filePath="
                 # no button found
                 # try to reload
                 try:
-                    WebDriverWait(driver, 15).until(ec.presence_of_element_located((By.XPATH, "//div[@class='gws-localreviews__general-reviews-block']//div[@class='WMbnJf gws-localreviews__google-review']")))
+                    WebDriverWait(driver, 15).until(ec.presence_of_element_located((By.XPATH, "//div[@class='" + review_block_class + "']//div[@class='" + review_class + "']")))
                 except TimeoutException:
                     if alternate:
                         url_terms = " ".join(url.split("=")[1].split("+"))
@@ -144,12 +147,18 @@ def scrapeFromURLs(urls, checkAddress=True, combine=True, wait=[2,3], filePath="
         percent_reviews_found = 0
         repCount = 0
         reviewTotal = 11
+        tempRevTotal = getReviewTotal(driver)
+        # check for overly large review total
+        if (limit != None) and (tempRevTotal > limit):
+            logString = "Failed to scrape location with key " + str(id) + ". Too many reviews: " + str(tempRevTotal)
+            print(logString)
+            logging.warning(logString)
+            dfs[i] = pd.DataFrame({})
+            i += 1
+            continue
         # get at least 80% of reviews at location
         while (percent_reviews_found < 0.9) and (reviewTotal >= 11):
-            reviewTotal = getReviewTotal(driver)
-            if (limit != None) and (reviewTotal > limit):
-                reviewTotal = limit
-                print("Total reviews for location limited to " + str(limit))
+            reviewTotal = tempRevTotal
             print(reviewTotal)
             x = scrollDown(driver, reviewTotal, wait)
             print(x)
