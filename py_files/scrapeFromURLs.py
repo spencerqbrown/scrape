@@ -7,11 +7,13 @@ from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.chrome.options import Options
 from scroll import scrollDown,getReviewTotal
 from scrapeFromList import scrapeFromList
+import os
 import logging
 import traceback
-def scrapeFromURLs(urls, checkAddress=True, combine=True, wait=[2,3], filePath="", alternate=False, limit=None):
+def scrapeFromURLs(urls, checkAddress=True, combine=True, wait=[2,3], filePath="", alternate=False, limit=None, firefox=False):
     log_file_name = "logfile_"+str(datetime.datetime.now()).replace(' ','_').replace(':','_').replace('.','_')+".log"
     logging.basicConfig(filename=log_file_name, level=logging.WARNING)
     print("combine:",combine)
@@ -25,9 +27,20 @@ def scrapeFromURLs(urls, checkAddress=True, combine=True, wait=[2,3], filePath="
     # check that urls are dicts
     if not (isinstance(urls, dict)):
         raise ValueError
+
+    # chrome options config
+    if not firefox:
+        chrome_options = Options()
+        chrome_options.add_argument("--no-sandbox")
+        chrome_options.add_argument("--disable-dev-shm-usage")
         
     # start selenium stuff
-    driver = webdriver.Chrome('/home/spencer/Documents/Projects/scrape/py_files/chromedriver')
+    if not firefox:
+        driver = webdriver.Chrome('./chromedriver', chrome_options=chrome_options)
+    else:
+        gecko_abs_path = os.path.abspath('./geckodriver')
+        driver = webdriver.Firefox(executable_path=gecko_abs_path)
+    print(driver.title)
     
     dfs = [0]*len(urls)
 
