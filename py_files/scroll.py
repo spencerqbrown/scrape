@@ -55,7 +55,9 @@ from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
 def scrollDown(driver, reviewTotal, wait):
+
     # set path strings
     review_block_class = "gws-localreviews__general-reviews-block"
     review_class = "WMbnJf vY6njf gws-localreviews__google-review"
@@ -82,6 +84,8 @@ def scrollDown(driver, reviewTotal, wait):
                 current_last = last_owner_response
         # go to current last element
         current_last.location_once_scrolled_into_view
+        # scroll down manually to be safe
+        driver.execute_script("window.scrollBy(0, -10)")
         # wait until page loads
         WebDriverWait(driver, 180).until(ec.invisibility_of_element_located((By.XPATH, "//div[@class='jfk-activityIndicator-icon']")))
         # take the previous review count and replace it with the new one

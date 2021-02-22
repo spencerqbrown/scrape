@@ -169,15 +169,15 @@ def scrapeFromURLs(urls, checkAddress=True, combine=True, wait=[2,3], filePath="
             dfs[i] = pd.DataFrame({})
             i += 1
             continue
-        # get at least 80% of reviews at location
-        while (percent_reviews_found < 0.9) and (reviewTotal >= 11):
+        # get at least 95% of reviews at location
+        while (percent_reviews_found < 0.95) and (reviewTotal >= 11):
             reviewTotal = tempRevTotal
             print(reviewTotal)
             x = scrollDown(driver, reviewTotal, wait)
             print(x)
             percent_reviews_found = x / reviewTotal
             print("Found",percent_reviews_found*100,"% of reviews for this location.")
-            if percent_reviews_found < 0.8:
+            if percent_reviews_found < 0.95:
                 print("trying to scroll again...")
             else:
                 print("found most reviews, moving on...")
@@ -188,7 +188,15 @@ def scrapeFromURLs(urls, checkAddress=True, combine=True, wait=[2,3], filePath="
                 logging.warning(logString)
                 break
             
-
+        # if scrolling fails, skip location
+        if (repCount > 10):
+            dfs[i] = pd.DataFrame({})
+            i += 1
+            print("failed to scrape location with key",id," due to scrolling failure, continuing...")
+            traceback.print_exc()
+            logString = "failed to scrape location with key " + str(id) + " due to scrolling failure."
+            logging.warning(logString)
+            continue
         
         # scrape from loaded list
         # if a scrape fails, move onto the next one
