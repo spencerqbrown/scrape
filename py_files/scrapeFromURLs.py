@@ -130,8 +130,9 @@ def scrapeFromURLs(urls, checkAddress=True, combine=True, wait=[2,3], filePath="
             button = driver.find_elements_by_class_name("hqzQac")
             if (len(button) > 0):
                 # button found
+                distance_to_scroll = driver.get_window_size()["width"]
+                driver.execute_script("window.scrollBy(" + str(distance_to_scroll) + ", 0)")
                 ActionChains(driver).move_to_element(button[0]).click().perform()
-                #button[0].click()
                 keep_going = False
             else:
                 # no button found
