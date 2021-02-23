@@ -10,6 +10,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.options import Options
 from scroll import scrollDown,getReviewTotal
 from scrapeFromList import scrapeFromList
+from selenium.webdriver.common.action_chains import ActionChains
 import os
 import logging
 import traceback
@@ -129,7 +130,8 @@ def scrapeFromURLs(urls, checkAddress=True, combine=True, wait=[2,3], filePath="
             button = driver.find_elements_by_class_name("hqzQac")
             if (len(button) > 0):
                 # button found
-                button[0].click()
+                ActionChains(driver).move_to_element(button[0]).click().perform()
+                #button[0].click()
                 keep_going = False
             else:
                 # no button found
