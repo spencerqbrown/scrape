@@ -85,7 +85,8 @@ def scrollDown(driver, reviewTotal, wait):
         # go to current last element
         current_last.location_once_scrolled_into_view
         # scroll down manually to be safe
-        driver.execute_script("window.scrollBy(0, -30)")
+        driver.execute_script("window.scrollBy(0, 5)")
+        driver.execute_script("window.scrollBy(0, -35)")
         # wait until page loads
         WebDriverWait(driver, 180).until(ec.invisibility_of_element_located((By.XPATH, "//div[@class='jfk-activityIndicator-icon']")))
         # take the previous review count and replace it with the new one

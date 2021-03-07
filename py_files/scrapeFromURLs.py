@@ -181,6 +181,8 @@ def scrapeFromURLs(urls, checkAddress=True, combine=True, wait=[2,3], filePath="
             percent_reviews_found = x / reviewTotal
             print("Found",percent_reviews_found*100,"% of reviews for this location.")
             if percent_reviews_found < 0.95:
+                # scroll up slightly
+                driver.execute_script("window.scrollBy(0, -50)")
                 print("trying to scroll again...")
             else:
                 print("found most reviews, moving on...")
