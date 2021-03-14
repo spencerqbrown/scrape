@@ -1,0 +1,27 @@
+WARNING:root:Failed to scrape location with key 8139881823.0. Too many reviews: 2736
+WARNING:root:Failed to scrape location with key 2106371611.0. Too many reviews: 2736
+WARNING:root:Failed to scroll all reviews for location with key 5124420412.0. Found only 460 reviews out of 848
+WARNING:root:failed to scrape location with key 5124420412.0 due to scrolling failure.
+WARNING:root:Failed to scroll all reviews for location with key 6038938205.0. Found only 810 reviews out of 1476
+WARNING:root:failed to scrape location with key 6038938205.0 due to scrolling failure.
+WARNING:root:Failed to scrape location with key 6195501823.0. Too many reviews: 2474
+WARNING:root:Failed to scroll all reviews for location with key 9073455932.0. Found only 330 reviews out of 383
+WARNING:root:failed to scrape location with key 9073455932.0 due to scrolling failure.
+WARNING:root:Failed to scroll all reviews for location with key 7154539517.0. Found only 1100 reviews out of 1218
+WARNING:root:failed to scrape location with key 7154539517.0 due to scrolling failure.
+WARNING:root:Failed to scroll all reviews for location with key 2605638524.0. Found only 430 reviews out of 868
+WARNING:root:failed to scrape location with key 2605638524.0 due to scrolling failure.
+WARNING:root:Failed to scroll all reviews for location with key 8472291891.0. Found only 280 reviews out of 768
+WARNING:root:failed to scrape location with key 8472291891.0 due to scrolling failure.
+WARNING:root:Failed to scroll all reviews for location with key 8155440141.0. Found only 380 reviews out of 845
+WARNING:root:failed to scrape location with key 8155440141.0 due to scrolling failure.
+WARNING:root:Failed to scroll all reviews for location with key 8037728798.0. Found only 1590 reviews out of 1791
+WARNING:root:failed to scrape location with key 8037728798.0 due to scrolling failure.
+WARNING:root:Failed to scrape location with key 2125865530.0. Too many reviews: 2788
+WARNING:root:Failed to scrape location with key 7342857040.0. Too many reviews: 2788
+WARNING:root:Failed to scroll all reviews for location with key 4254821608.0. Found only 280 reviews out of 424
+WARNING:root:failed to scrape location with key 4254821608.0 due to scrolling failure.
+WARNING:root:failed to scrape location with key 5703261355.0 for unknown reason.
+WARNING:urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f15377a4590>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/ef0c734c-389b-4f3b-b8f1-b43efbdbd09e/url
+WARNING:urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f1538a63890>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/ef0c734c-389b-4f3b-b8f1-b43efbdbd09e/url
+WARNING:urllib3.connectionpool:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f1538a634d0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/ef0c734c-389b-4f3b-b8f1-b43efbdbd09e/url
