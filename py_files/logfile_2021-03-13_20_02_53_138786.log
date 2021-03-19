@@ -1,0 +1,27 @@
+WARNING:root:Failed to scrape location with key 9093881150.0. Too many reviews: 6281
+WARNING:root:Failed to scrape location with key 8167612524.0. Too many reviews: 6281
+WARNING:root:Failed to scroll all reviews for location with key 3166856690.0. Found only 450 reviews out of 821
+WARNING:root:failed to scrape location with key 3166856690.0 due to scrolling failure.
+WARNING:root:Failed to scroll all reviews for location with key 7137818085.0. Found only 1350 reviews out of 1523
+WARNING:root:failed to scrape location with key 7137818085.0 due to scrolling failure.
+WARNING:root:Failed to scrape location with key 3056323665.0. Too many reviews: 3089
+WARNING:root:Failed to scrape location with key 2037573671.0. Too many reviews: 3089
+WARNING:root:Failed to scrape location with key 5183447074.0. Too many reviews: 2940
+WARNING:root:Failed to scrape location with key 7066539627.0. Too many reviews: 2940
+WARNING:root:Failed to scrape location with key 6028618477.0. Too many reviews: 8839
+WARNING:root:Failed to scroll all reviews for location with key 2518294939.0. Found only 250 reviews out of 579
+WARNING:root:failed to scrape location with key 2518294939.0 due to scrolling failure.
+WARNING:root:Failed to scroll all reviews for location with key nan. Found only 790 reviews out of 1912
+WARNING:root:failed to scrape location with key nan due to scrolling failure.
+WARNING:root:Failed to scroll all reviews for location with key 2523381793.0. Found only 390 reviews out of 888
+WARNING:root:failed to scrape location with key 2523381793.0 due to scrolling failure.
+WARNING:root:Failed to scroll all reviews for location with key 8608488360.0. Found only 20 reviews out of 913
+WARNING:root:failed to scrape location with key 8608488360.0 due to scrolling failure.
+WARNING:root:Failed to scroll all reviews for location with key nan. Found only 90 reviews out of 913
+WARNING:root:failed to scrape location with key nan due to scrolling failure.
+WARNING:root:Failed to scroll all reviews for location with key nan. Found only 550 reviews out of 615
+WARNING:root:failed to scrape location with key nan due to scrolling failure.
+WARNING:root:Failed to scrape location with key 2535812264.0. Too many reviews: 3055
+WARNING:root:Failed to scrape location with key 4047618176.0. Too many reviews: 3055
+WARNING:root:Failed to scroll all reviews for location with key 9198082197.0. Found only 420 reviews out of 1091
+WARNING:root:failed to scrape location with key 9198082197.0 due to scrolling failure.
